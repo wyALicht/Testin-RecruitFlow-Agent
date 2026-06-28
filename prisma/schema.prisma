@@ -1,0 +1,430 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum CandidateStatus {
+  RECOMMENDED
+  INVITED
+  FIRST_INTERVIEW
+  SECOND_INTERVIEW
+  CROSS_INTERVIEW
+  FINAL_INTERVIEW
+  PASSED
+  OFFER
+  ONBOARD
+}
+
+enum AgentTaskStatus {
+  PENDING
+  SUCCESS
+  FAILED
+  NEED_REVIEW
+}
+
+enum RawInputType {
+  RESUME
+  EMAIL
+  CHAT
+  NOTE
+  OTHER
+}
+
+enum InputScene {
+  RESUME
+  EMAIL
+  CHAT
+  INTERVIEW_FEEDBACK
+  NOTE
+  OTHER
+}
+
+enum NotificationType {
+  FOLLOW_UP
+  INTERVIEW
+  OFFER
+  ONBOARD
+  OTHER
+}
+
+enum AuthRole {
+  admin
+  recruiter
+}
+
+enum PositionRecruitmentStatus {
+  NORMAL
+  DELAYED
+  PAUSED
+}
+
+enum PositionPriority {
+  HIGHEST
+  MEDIUM_HIGH
+  REGULAR
+}
+
+enum PositionFieldType {
+  TEXT
+  LONG_TEXT
+  NUMBER
+  MONEY
+  DATE
+  DATETIME
+  SINGLE_SELECT
+  MULTI_SELECT
+  BOOLEAN
+  USER
+  FILE
+  LINK
+  RATING
+}
+
+enum PositionFieldScope {
+  CANDIDATE
+  APPLICATION
+  SYSTEM
+}
+
+/// 候选人人才库主表，保存跨岗位复用的个人基础信息与当前主流程状态。
+model Candidate {
+  id                 String          @id
+  name               String
+  phone              String?
+  email              String?
+  school             String?
+  education          String?
+  major              String?
+  yearsOfExperience  Int?
+  skills             String[]        @default([])
+  status             CandidateStatus @default(RECOMMENDED)
+  source             String?
+  remark             String?
+  confidence         Float?
+  uncertainFields    String[]        @default([])
+  tags               String[]        @default([])
+  followUpSuggestion String?
+  lastFollowUpAt     DateTime?
+  deletedAt          DateTime?
+
+  positionId String?
+  position   Position? @relation(fields: [positionId], references: [id], onDelete: SetNull)
+
+  logs          RecruitmentLog[]
+  rawInputs     RawInput[]
+  agentTasks    AgentTask[]
+  notifications Notification[]
+  applications  RecruitmentApplication[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([name])
+  @@index([phone])
+  @@index([email])
+  @@index([status])
+  @@index([positionId])
+  @@index([deletedAt])
+}
+
+/// 招聘岗位表，承载部门、JD、优先级、自定义字段和岗位维度的招聘进度。
+model Position {
+  id                String                    @id
+  title             String
+  department        String?
+  departmentId      String?
+  departmentRef     Department?               @relation(fields: [departmentId], references: [id], onDelete: SetNull)
+  headcount         Int                       @default(1)
+  owner             String?
+  description       String?
+  status            String                    @default("open")
+  recruitmentStatus PositionRecruitmentStatus @default(NORMAL)
+  priority          PositionPriority          @default(REGULAR)
+  deletedAt         DateTime?
+  positionCreatedAt DateTime                  @default(now())
+
+  candidates       Candidate[]
+  applications     RecruitmentApplication[]
+  fieldDefinitions PositionFieldDefinition[]
+  importBatches    RecruitmentImportBatch[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([title])
+  @@index([department])
+  @@index([departmentId])
+  @@index([recruitmentStatus])
+  @@index([priority])
+  @@index([deletedAt])
+}
+
+/// 部门字典表，管理员维护后供岗位创建和 Intake 选择使用。
+model Department {
+  id        String  @id
+  name      String  @unique
+  code      String? @unique
+  active    Boolean @default(true)
+  sortOrder Int     @default(0)
+
+  positions Position[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active, sortOrder])
+}
+
+/// 招聘状态流转日志，记录候选人或岗位申请从一个阶段推进到另一个阶段的轨迹。
+model RecruitmentLog {
+  id String @id
+
+  candidateId String
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+
+  applicationId String?
+  application   RecruitmentApplication? @relation(fields: [applicationId], references: [id], onDelete: SetNull)
+
+  fromStatus CandidateStatus?
+  toStatus   CandidateStatus
+  note       String?
+  source     String?          @default("manual")
+  createdBy  String?
+
+  createdAt DateTime @default(now())
+
+  @@index([candidateId])
+  @@index([applicationId])
+  @@index([toStatus])
+  @@index([createdAt])
+}
+
+/// 原始输入回溯表，保存简历、邮件、聊天记录等原文及 AI 解析结果快照。
+model RawInput {
+  id           String       @id
+  inputType    RawInputType @default(OTHER)
+  inputScene   InputScene?
+  content      String
+  parsedResult Json?
+
+  candidateId String?
+  candidate   Candidate? @relation(fields: [candidateId], references: [id], onDelete: SetNull)
+
+  applicationId String?
+  application   RecruitmentApplication? @relation(fields: [applicationId], references: [id], onDelete: SetNull)
+
+  agentTasks AgentTask[]
+
+  createdAt DateTime @default(now())
+
+  @@index([candidateId])
+  @@index([applicationId])
+  @@index([inputType])
+  @@index([createdAt])
+}
+
+/// Agent 执行日志表，拆分记录抽取、分类、标签、重复检测、跟进建议等子任务。
+model AgentTask {
+  id        String          @id
+  agentName String
+  taskType  String
+  status    AgentTaskStatus @default(PENDING)
+
+  input      Json
+  output     Json?
+  error      String?
+  confidence Float?
+  durationMs Int?
+
+  candidateId String?
+  candidate   Candidate? @relation(fields: [candidateId], references: [id], onDelete: SetNull)
+
+  rawInputId String?
+  rawInput   RawInput? @relation(fields: [rawInputId], references: [id], onDelete: SetNull)
+
+  applicationId String?
+  application   RecruitmentApplication? @relation(fields: [applicationId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([agentName])
+  @@index([taskType])
+  @@index([status])
+  @@index([candidateId])
+  @@index([rawInputId])
+  @@index([applicationId])
+  @@index([createdAt])
+}
+
+/// 跟进提醒表，根据候选人阶段生成待办，供 Dashboard 和详情页提示下一步动作。
+model Notification {
+  id    String           @id
+  type  NotificationType @default(OTHER)
+  title String
+  note  String?
+  dueAt DateTime?
+  done  Boolean          @default(false)
+
+  candidateId String
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([candidateId])
+  @@index([type])
+  @@index([done])
+  @@index([dueAt])
+}
+
+/// 系统登录用户表，当前区分管理员和招聘人员两类角色。
+model AuthUser {
+  id           String   @id
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         AuthRole @default(recruiter)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([role])
+  @@index([createdAt])
+}
+
+/// 应用级配置表，用于保存侧边栏、展示偏好等可配置项。
+model AppSetting {
+  key       String   @id
+  value     Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+/// 岗位申请表，描述某个候选人在某个岗位下的独立招聘流程。
+model RecruitmentApplication {
+  id          String    @id
+  candidateId String
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+  positionId  String
+  position    Position  @relation(fields: [positionId], references: [id], onDelete: Cascade)
+
+  status         CandidateStatus @default(RECOMMENDED)
+  ownerId        String?
+  ownerName      String?
+  source         String?
+  appliedAt      DateTime        @default(now())
+  customValues   Json            @default("{}")
+  schemaVersion  Int             @default(1)
+  lastFollowUpAt DateTime?
+  deletedAt      DateTime?
+
+  logs       RecruitmentLog[]
+  rawInputs  RawInput[]
+  agentTasks AgentTask[]
+  changes    ApplicationFieldChange[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([candidateId, positionId])
+  @@index([candidateId])
+  @@index([positionId])
+  @@index([status])
+  @@index([ownerId])
+  @@index([appliedAt])
+  @@index([deletedAt])
+}
+
+/// 岗位自定义字段定义，支持管理员为不同岗位配置 AI 可抽取的申请字段。
+model PositionFieldDefinition {
+  id         String   @id
+  positionId String
+  position   Position @relation(fields: [positionId], references: [id], onDelete: Cascade)
+
+  key             String
+  label           String
+  fieldType       PositionFieldType
+  scope           PositionFieldScope @default(APPLICATION)
+  required        Boolean            @default(false)
+  visible         Boolean            @default(true)
+  editable        Boolean            @default(true)
+  aiExtractable   Boolean            @default(false)
+  system          Boolean            @default(false)
+  options         Json?
+  defaultValue    Json?
+  validationRules Json?
+  autoFillRule    Json?
+  conflictPolicy  String             @default("FILL_EMPTY")
+  sortOrder       Int                @default(0)
+  width           Int                @default(160)
+  schemaVersion   Int                @default(1)
+  active          Boolean            @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([positionId, key])
+  @@index([positionId, active, sortOrder])
+}
+
+/// 申请字段变更记录，追踪自定义字段由 AI 或人工修改的历史。
+model ApplicationFieldChange {
+  id            String                 @id
+  applicationId String
+  application   RecruitmentApplication @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+
+  fieldKey     String
+  oldValue     Json?
+  newValue     Json?
+  source       String   @default("MANUAL")
+  confidence   Float?
+  rawInputId   String?
+  agentTaskId  String?
+  operatorId   String?
+  operatorName String?
+  createdAt    DateTime @default(now())
+
+  @@index([applicationId])
+  @@index([fieldKey])
+  @@index([createdAt])
+}
+
+/// 岗位批量导入批次，支持导入后按批次撤销。
+model RecruitmentImportBatch {
+  id            String    @id
+  positionId    String
+  position      Position  @relation(fields: [positionId], references: [id], onDelete: Cascade)
+  status        String    @default("APPLIED")
+  createdById   String?
+  createdByName String?
+  createdAt     DateTime  @default(now())
+  undoneAt      DateTime?
+
+  entries RecruitmentImportEntry[]
+
+  @@index([positionId, createdAt])
+  @@index([status])
+}
+
+/// 批量导入明细，记录每条候选人/申请在导入前后的快照。
+model RecruitmentImportEntry {
+  id                   String                 @id
+  batchId              String
+  batch                RecruitmentImportBatch @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  action               String
+  applicationId        String?
+  candidateId          String?
+  beforeCandidate      Json?
+  beforeApplication    Json?
+  appliedCandidateAt   DateTime?
+  appliedApplicationAt DateTime?
+  createdAt            DateTime               @default(now())
+
+  @@index([batchId])
+  @@index([applicationId])
+  @@index([candidateId])
+}

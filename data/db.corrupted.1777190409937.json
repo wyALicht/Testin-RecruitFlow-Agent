@@ -1,0 +1,639 @@
+﻿{
+    "positions":  [
+                      {
+                          "id":  "pos_1lqe4nzt",
+                          "title":  "前端工程师",
+                          "department":  "产品研发",
+                          "headcount":  2,
+                          "owner":  "Luna",
+                          "description":  "负责中后台与可视化方向前端开发。",
+                          "status":  "open",
+                          "createdAt":  "2026-04-25T11:31:22.696Z",
+                          "updatedAt":  "2026-04-25T11:31:22.697Z"
+                      },
+                      {
+                          "id":  "pos_m158csr3",
+                          "title":  "测试开发工程师",
+                          "department":  "质量平台",
+                          "headcount":  1,
+                          "owner":  "Ming",
+                          "description":  "负责自动化测试与质量平台建设。",
+                          "status":  "open",
+                          "createdAt":  "2026-04-25T11:31:22.697Z",
+                          "updatedAt":  "2026-04-25T11:31:22.697Z"
+                      },
+                      {
+                          "id":  "pos_48c8scov",
+                          "title":  "AI 产品经理",
+                          "department":  "AI 应用",
+                          "headcount":  1,
+                          "owner":  "Jade",
+                          "description":  "负责 Agent 产品设计与业务场景落地。",
+                          "status":  "open",
+                          "createdAt":  "2026-04-25T11:31:22.697Z",
+                          "updatedAt":  "2026-04-25T11:31:22.697Z"
+                      },
+                      {
+                          "id":  "pos_9c5a9663",
+                          "title":  "后端开发",
+                          "department":  null,
+                          "headcount":  1,
+                          "owner":  null,
+                          "description":  null,
+                          "status":  "open",
+                          "createdAt":  "2026-04-26T06:41:51.537Z",
+                          "updatedAt":  "2026-04-26T06:41:51.537Z"
+                      }
+                  ],
+    "candidates":  [
+                       {
+                           "id":  "cand_wb1iqd3f",
+                           "name":  "李文博",
+                           "phone":  "13800138000",
+                           "email":  "liwenbo@example.com",
+                           "school":  "华南理工大学",
+                           "major":  "软件工程",
+                           "yearsOfExperience":  4,
+                           "skills":  [
+                                          "React",
+                                          "Next.js",
+                                          "TypeScript",
+                                          "ECharts"
+                                      ],
+                           "status":  "FIRST_INTERVIEW",
+                           "source":  "BOSS 直聘",
+                           "remark":  "一面反馈良好，可继续推进。",
+                           "confidence":  0.91,
+                           "uncertainFields":  [
+
+                                               ],
+                           "lastFollowUpAt":  "2026-04-23T11:31:22.697Z",
+                           "deletedAt":  null,
+                           "positionId":  "pos_1lqe4nzt",
+                           "createdAt":  "2026-04-18T11:31:22.697Z",
+                           "updatedAt":  "2026-04-23T11:31:22.697Z"
+                       },
+                       {
+                           "id":  "cand_zbc55eqw",
+                           "name":  "周嘉怡",
+                           "phone":  "13900139000",
+                           "email":  "zhoujiayi@example.com",
+                           "school":  "武汉大学",
+                           "major":  "信息管理",
+                           "yearsOfExperience":  5,
+                           "skills":  [
+                                          "需求分析",
+                                          "用户研究",
+                                          "流程设计",
+                                          "AI Agent"
+                                      ],
+                           "status":  "OFFER",
+                           "source":  "内部推荐",
+                           "remark":  "Offer 已发出，等待候选人确认。",
+                           "confidence":  0.88,
+                           "uncertainFields":  [
+                                                   "期望薪资"
+                                               ],
+                           "lastFollowUpAt":  "2026-04-24T11:31:22.697Z",
+                           "deletedAt":  null,
+                           "positionId":  "pos_48c8scov",
+                           "createdAt":  "2026-04-20T11:31:22.697Z",
+                           "updatedAt":  "2026-04-24T11:31:22.697Z"
+                       },
+                       {
+                           "id":  "cand_bkxl3p48",
+                           "name":  "陈启航",
+                           "phone":  "13700137000",
+                           "email":  "chenqihang@example.com",
+                           "school":  "哈尔滨工业大学",
+                           "major":  "计算机科学与技术",
+                           "yearsOfExperience":  3,
+                           "skills":  [
+                                          "Playwright",
+                                          "Python",
+                                          "CI/CD",
+                                          "质量平台"
+                                      ],
+                           "status":  "SCREENING",
+                           "source":  "拉勾",
+                           "remark":  "等待 HR 初筛电话。",
+                           "confidence":  0.79,
+                           "uncertainFields":  [
+                                                   "项目年限"
+                                               ],
+                           "lastFollowUpAt":  "2026-04-19T11:31:22.697Z",
+                           "deletedAt":  null,
+                           "positionId":  "pos_m158csr3",
+                           "createdAt":  "2026-04-22T11:31:22.697Z",
+                           "updatedAt":  "2026-04-24T11:31:22.697Z"
+                       },
+                       {
+                           "id":  "cand_f763090c",
+                           "name":  "汪聪",
+                           "phone":  "18270158043",
+                           "email":  "2691126121@qq.com",
+                           "school":  "中国地质大学(武汉)",
+                           "major":  "计算机技术",
+                           "yearsOfExperience":  null,
+                           "skills":  [
+                                          "Java",
+                                          "Spring Security",
+                                          "JWT",
+                                          "Redis",
+                                          "MinIO",
+                                          "RocketMQ",
+                                          "XXL-JOB",
+                                          "ElasticSearch",
+                                          "RAG",
+                                          "LangChain4J",
+                                          "LangGraph4J",
+                                          "MCP",
+                                          "ReAct",
+                                          "Tool Calling",
+                                          "MySQL",
+                                          "TCP",
+                                          "IP",
+                                          "操作系统"
+                                      ],
+                           "status":  "SCREENING",
+                           "source":  "上传文件",
+                           "remark":  "在看板中推进到 筛选中。",
+                           "confidence":  0.98,
+                           "uncertainFields":  [
+                                                   "yearsOfExperience"
+                                               ],
+                           "lastFollowUpAt":  "2026-04-26T07:07:46.093Z",
+                           "deletedAt":  null,
+                           "positionId":  "pos_9c5a9663",
+                           "createdAt":  "2026-04-26T06:41:51.537Z",
+                           "updatedAt":  "2026-04-26T07:07:46.093Z"
+                       }
+                   ],
+    "logs":  [
+                 {
+                     "id":  "log_ss19hc0s",
+                     "candidateId":  "cand_wb1iqd3f",
+                     "fromStatus":  null,
+                     "toStatus":  "FIRST_INTERVIEW",
+                     "note":  "候选人进入系统",
+                     "source":  "seed",
+                     "createdBy":  "system",
+                     "createdAt":  "2026-04-18T11:31:22.697Z"
+                 },
+                 {
+                     "id":  "log_w158olry",
+                     "candidateId":  "cand_zbc55eqw",
+                     "fromStatus":  null,
+                     "toStatus":  "OFFER",
+                     "note":  "候选人进入系统",
+                     "source":  "seed",
+                     "createdBy":  "system",
+                     "createdAt":  "2026-04-20T11:31:22.697Z"
+                 },
+                 {
+                     "id":  "log_u61w3xe4",
+                     "candidateId":  "cand_bkxl3p48",
+                     "fromStatus":  null,
+                     "toStatus":  "SCREENING",
+                     "note":  "候选人进入系统",
+                     "source":  "seed",
+                     "createdBy":  "system",
+                     "createdAt":  "2026-04-22T11:31:22.697Z"
+                 },
+                 {
+                     "id":  "log_543fd4fc",
+                     "candidateId":  "cand_f763090c",
+                     "fromStatus":  null,
+                     "toStatus":  "NEW",
+                     "note":  "候选人通过 Agent Intake 创建。",
+                     "source":  "agent",
+                     "createdBy":  "system",
+                     "createdAt":  "2026-04-26T06:41:51.537Z"
+                 },
+                 {
+                     "id":  "log_aa402378",
+                     "candidateId":  "cand_f763090c",
+                     "fromStatus":  "NEW",
+                     "toStatus":  "SCREENING",
+                     "note":  "在看板中推进到 筛选中。",
+                     "source":  "manual",
+                     "createdBy":  "HR",
+                     "createdAt":  "2026-04-26T07:07:46.093Z"
+                 }
+             ],
+    "rawInputs":  [
+                      {
+                          "id":  "raw_0pt8d8te",
+                          "candidateId":  "cand_wb1iqd3f",
+                          "inputType":  "RESUME",
+                          "content":  "姓名：李文博\n电话：13800138000\n邮箱：liwenbo@example.com\n学校：华南理工大学\n技能：React、Next.js、TypeScript、ECharts",
+                          "parsedResult":  {
+                                               "source":  "seed"
+                                           },
+                          "createdAt":  "2026-04-18T11:31:22.697Z"
+                      },
+                      {
+                          "id":  "raw_n0c7p049",
+                          "candidateId":  "cand_zbc55eqw",
+                          "inputType":  "EMAIL",
+                          "content":  "Offer 邮件已发送，候选人表示周三前给回复。",
+                          "parsedResult":  {
+                                               "source":  "seed"
+                                           },
+                          "createdAt":  "2026-04-23T11:31:22.697Z"
+                      },
+                      {
+                          "id":  "raw_070919a7",
+                          "candidateId":  null,
+                          "inputType":  "RESUME",
+                          "content":  "Hello PDF Resume\n\n-- 1 of 1 --",
+                          "parsedResult":  {
+                                               "provider":  "qwen",
+                                               "inputMeta":  {
+                                                                 "fileName":  "tmp-upload.pdf",
+                                                                 "mimeType":  "application/pdf",
+                                                                 "fileSize":  591
+                                                             },
+                                               "result":  {
+                                                              "name":  "待确认候选人",
+                                                              "phone":  null,
+                                                              "email":  null,
+                                                              "school":  null,
+                                                              "major":  null,
+                                                              "yearsOfExperience":  null,
+                                                              "skills":  [
+
+                                                                         ],
+                                                              "status":  "NEW",
+                                                              "source":  "上传文件",
+                                                              "remark":  "仅上传PDF文件，无实际内容可解析",
+                                                              "confidence":  0.35,
+                                                              "uncertainFields":  [
+                                                                                      "姓名",
+                                                                                      "联系方式",
+                                                                                      "邮箱",
+                                                                                      "学校",
+                                                                                      "专业",
+                                                                                      "工作年限",
+                                                                                      "技能标签",
+                                                                                      "应聘岗位"
+                                                                                  ],
+                                                              "positionTitle":  null,
+                                                              "inputType":  "RESUME"
+                                                          }
+                                           },
+                          "createdAt":  "2026-04-26T06:03:40.302Z"
+                      },
+                      {
+                          "id":  "raw_fb3897ab",
+                          "candidateId":  "cand_f763090c",
+                          "inputType":  "RESUME",
+                          "content":  "项目经历\n基于RAG的视频社交平台与问答系统 \t2025年05月 - 2025年08月\n项目描述：开发了一个集视频互动与实时社交于一体的前后端分离在线视频平台，涵盖视频上传、一对一私聊及基于RAG技术的\n智能问答助手等核心功能。\n个人贡献:\nSpring Security+JWT实现统一认证与鉴权和单点登录，并通过双JWT机制, 实现无感刷新 Token。\n优化视频上传链路，基于Redis BitMap和Lua脚本管理文件分片状态，结合MinIO实现大文件分片上传与断点续传，提升大文\n件上传效率。构建RocketMQ异步视频转码，解耦上传析与转码流程。\n构建基于 XXL-JOB+Redis+RocketMQ 的异步数据同步链路，实现 MySQL→ElasticSearch最终一致性同步，引入布隆过滤\n器拦截无效更新请求，降低ElasticSearch访问压力。\n实现滑动窗口+摘要+Redis存储的高效短期记忆机制，保障对话上下文完整性、即时对话连贯性。\n通过查询重写策略+语义分块策略+混合检索 (BM25和向量检索) 优化提升检索准确性。\nFlowCore \t2025年09月 - 2026年02月\n项目描述: FlowCore 是一个AI Agent工作流编排平台，支持可视化方式对大模型节点、插件及控制流进行编排。该平台采用微\n服务架构，整合了语音合成、文生图、图片理解内置工具，通过状态管理、并行执行与全链路追踪等技术实现稳定的工作流运\n行。\n个人贡献:\n设计了双队列架构（数据流队列 + 排序队列），通过独立的异步消费者线程将 LLM 生成的 Token 片段、节点状态变更事件与\n结构化日志进行解耦处理与有序重组，消除了高并发场景下SSE响应乱序与丢包现象。\n通过CachedThreadPool+TTL+synchronized+AtomicInteger+CompletableFuture，实现了复杂的并行分支执行逻辑，\n确保 50+ 节点规模的工作流在多线程环境下的执行顺序与数据一致性。\n实现并行工作流引擎，采用Kahn 拓扑排序 + DFS 循环检测生成执行顺序，支持一对多、多对一节点关系，解决复杂流程编排\n下依赖混乱和执行死锁问题。\n主导Link与 AITools子系统的解耦拆分，通过定义标准化的 HTTP/MCP 协议接口 ，实现了外部工具与内部原子能力的无缝热插\n拔， 支持业务方在不重启核心引擎的情况下动态扩展 10+ 种新的 AI 处理能力。\n定义节点生命周期状态机枚举，并通过EngineContextHolder实现线程隔离的执行上下文管理；结合日志埋点，支持对每个\n节点执行耗时、输入输出及重试次数的全链路追踪，将线上问题的平均排查时间 从小时级缩短至分钟级。\n专业技能\n编程语言：熟悉Java编程，深入理解JVM模型、类加载机制、垃圾回收算法以及调优。掌握多线程编程、集合框架（ArrayList、\nHashMap等）底层原理。\n常用框架：深入理解Spring框架，掌握SpringBoot、Spring Cloud、Spring AI、MyBatis等主流开发框架。\nAI 应用开发：熟悉 LangChain4J/LangGraph4J、RAG、MCP、Skills、ReAct 及Tool Calling，具备AI应用开发能力。\nAI工具：熟练使用Cursor、Codex辅助开发项目，具备Prompt Engineering能力，提升工作效率。\n数据库：熟悉MySQL，深入理解索引机制、事务隔离级别以及锁机制；熟练掌握Redis，了解常见缓存问题及解决方案。\n中间件：熟悉RocketMQ原理和使用，了解消息不丢失、消息不重复消费、消息顺序消费、消息堆积问题及解决方案。\n专业知识：掌握计算机网络(TCP/IP协议)、操作系统等计算机基础知识，具备开发理论基础。\n英语能力：已过CET4和CET6，具备阅读英文文献的能力，并投中CCF-C期刊论文一篇和CCF-C会议论文一篇。\n教育经历\n中国地质大学(武汉)-计算机技术 硕士 \t2024年09月 - 2027年06月\n获得学业一等奖学金(2次)，第二十七届中国机器人及人工智能大赛国赛二等奖\n九江学院-计算机科学与技术 本科 \t2019年09月 - 2023年06月\n获得校一等奖学金(1次)，校二等奖学金(2次)，校三等奖学金(1次)\n汪聪\n电话： 18270158043 | 邮箱： 2691126121@qq.com\n求职意向：后端开发\n\n-- 1 of 1 --",
+                          "parsedResult":  {
+                                               "provider":  "qwen",
+                                               "inputMeta":  {
+                                                                 "fileName":  "汪聪-中国地质大学(武汉)-18270158043.pdf",
+                                                                 "mimeType":  "application/pdf",
+                                                                 "fileSize":  379382
+                                                             },
+                                               "result":  {
+                                                              "name":  "汪聪",
+                                                              "phone":  "18270158043",
+                                                              "email":  "2691126121@qq.com",
+                                                              "school":  "中国地质大学(武汉)",
+                                                              "major":  "计算机技术",
+                                                              "yearsOfExperience":  null,
+                                                              "skills":  [
+                                                                             "Java",
+                                                                             "Spring Security",
+                                                                             "JWT",
+                                                                             "Redis",
+                                                                             "MinIO",
+                                                                             "RocketMQ",
+                                                                             "XXL-JOB",
+                                                                             "ElasticSearch",
+                                                                             "RAG",
+                                                                             "LangChain4J",
+                                                                             "LangGraph4J",
+                                                                             "MCP",
+                                                                             "ReAct",
+                                                                             "Tool Calling",
+                                                                             "MySQL",
+                                                                             "TCP/IP",
+                                                                             "操作系统"
+                                                                         ],
+                                                              "status":  "NEW",
+                                                              "source":  "上传文件",
+                                                              "remark":  "PDF简历，含教育背景、项目经历、技能与联系方式",
+                                                              "confidence":  0.98,
+                                                              "uncertainFields":  [
+                                                                                      "yearsOfExperience"
+                                                                                  ],
+                                                              "positionTitle":  "后端开发",
+                                                              "inputType":  "RESUME"
+                                                          },
+                                               "candidateId":  "cand_f763090c",
+                                               "savedAt":  "2026-04-26T06:41:51.537Z"
+                                           },
+                          "createdAt":  "2026-04-26T06:41:02.372Z"
+                      }
+                  ],
+    "agentTasks":  [
+                       {
+                           "id":  "task_k9eaf800",
+                           "agentName":  "CandidateExtractAgent",
+                           "taskType":  "extract",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "source":  "seed resume"
+                                     },
+                           "output":  {
+                                          "candidate":  "李文博"
+                                      },
+                           "error":  null,
+                           "confidence":  0.91,
+                           "durationMs":  1820,
+                           "candidateId":  "cand_wb1iqd3f",
+                           "rawInputId":  null,
+                           "createdAt":  "2026-04-18T11:31:22.697Z",
+                           "updatedAt":  "2026-04-18T11:31:22.697Z"
+                       },
+                       {
+                           "id":  "task_o911nmm2",
+                           "agentName":  "StatusTrackingAgent",
+                           "taskType":  "status",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "note":  "Offer sent"
+                                     },
+                           "output":  {
+                                          "status":  "OFFER"
+                                      },
+                           "error":  null,
+                           "confidence":  0.87,
+                           "durationMs":  860,
+                           "candidateId":  "cand_zbc55eqw",
+                           "rawInputId":  null,
+                           "createdAt":  "2026-04-23T11:31:22.697Z",
+                           "updatedAt":  "2026-04-23T11:31:22.697Z"
+                       },
+                       {
+                           "id":  "task_seteh0pm",
+                           "agentName":  "ReminderAgent",
+                           "taskType":  "reminder",
+                           "status":  "NEED_REVIEW",
+                           "input":  {
+                                         "candidate":  "陈启航"
+                                     },
+                           "output":  {
+                                          "due":  "2026-04-26T11:31:22.697Z"
+                                      },
+                           "error":  null,
+                           "confidence":  0.63,
+                           "durationMs":  410,
+                           "candidateId":  "cand_bkxl3p48",
+                           "rawInputId":  null,
+                           "createdAt":  "2026-04-24T11:31:22.697Z",
+                           "updatedAt":  "2026-04-24T11:31:22.697Z"
+                       },
+                       {
+                           "id":  "task_b5520ecc",
+                           "agentName":  "qwen:CandidateExtractAgent",
+                           "taskType":  "extract",
+                           "status":  "NEED_REVIEW",
+                           "input":  {
+                                         "contentLength":  70,
+                                         "fileName":  "tmp-upload.pdf",
+                                         "mimeType":  "application/pdf",
+                                         "fileSize":  591
+                                     },
+                           "output":  {
+                                          "name":  "待确认候选人",
+                                          "phone":  null,
+                                          "email":  null,
+                                          "school":  null,
+                                          "major":  null,
+                                          "yearsOfExperience":  null,
+                                          "skills":  [
+
+                                                     ],
+                                          "status":  "NEW",
+                                          "source":  "上传文件",
+                                          "remark":  "仅上传PDF文件，无实际内容可解析",
+                                          "confidence":  0.35,
+                                          "uncertainFields":  [
+                                                                  "姓名",
+                                                                  "联系方式",
+                                                                  "邮箱",
+                                                                  "学校",
+                                                                  "专业",
+                                                                  "工作年限",
+                                                                  "技能标签",
+                                                                  "应聘岗位"
+                                                              ],
+                                          "positionTitle":  null,
+                                          "inputType":  "RESUME"
+                                      },
+                           "error":  null,
+                           "confidence":  0.35,
+                           "durationMs":  3882,
+                           "candidateId":  null,
+                           "rawInputId":  "raw_070919a7",
+                           "createdAt":  "2026-04-26T06:03:40.302Z",
+                           "updatedAt":  "2026-04-26T06:03:40.302Z"
+                       },
+                       {
+                           "id":  "task_49fabc17",
+                           "agentName":  "qwen:DuplicateCheckAgent",
+                           "taskType":  "duplicate",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "phone":  null,
+                                         "email":  null,
+                                         "name":  "待确认候选人",
+                                         "positionTitle":  null
+                                     },
+                           "output":  {
+                                          "message":  "未发现重复候选人"
+                                      },
+                           "error":  null,
+                           "confidence":  0.94,
+                           "durationMs":  60,
+                           "candidateId":  null,
+                           "rawInputId":  "raw_070919a7",
+                           "createdAt":  "2026-04-26T06:03:40.302Z",
+                           "updatedAt":  "2026-04-26T06:03:40.302Z"
+                       },
+                       {
+                           "id":  "task_282fc032",
+                           "agentName":  "qwen:StatusTrackingAgent",
+                           "taskType":  "status",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "sourceType":  "RESUME"
+                                     },
+                           "output":  {
+                                          "status":  "NEW"
+                                      },
+                           "error":  null,
+                           "confidence":  0.35,
+                           "durationMs":  40,
+                           "candidateId":  null,
+                           "rawInputId":  "raw_070919a7",
+                           "createdAt":  "2026-04-26T06:03:40.302Z",
+                           "updatedAt":  "2026-04-26T06:03:40.302Z"
+                       },
+                       {
+                           "id":  "task_a56eb6fd",
+                           "agentName":  "qwen:CandidateExtractAgent",
+                           "taskType":  "extract",
+                           "status":  "NEED_REVIEW",
+                           "input":  {
+                                         "contentLength":  1949,
+                                         "fileName":  "汪聪-中国地质大学(武汉)-18270158043.pdf",
+                                         "mimeType":  "application/pdf",
+                                         "fileSize":  379382
+                                     },
+                           "output":  {
+                                          "name":  "汪聪",
+                                          "phone":  "18270158043",
+                                          "email":  "2691126121@qq.com",
+                                          "school":  "中国地质大学(武汉)",
+                                          "major":  "计算机技术",
+                                          "yearsOfExperience":  null,
+                                          "skills":  [
+                                                         "Java",
+                                                         "Spring Security",
+                                                         "JWT",
+                                                         "Redis",
+                                                         "MinIO",
+                                                         "RocketMQ",
+                                                         "XXL-JOB",
+                                                         "ElasticSearch",
+                                                         "RAG",
+                                                         "LangChain4J",
+                                                         "LangGraph4J",
+                                                         "MCP",
+                                                         "ReAct",
+                                                         "Tool Calling",
+                                                         "MySQL",
+                                                         "TCP/IP",
+                                                         "操作系统"
+                                                     ],
+                                          "status":  "NEW",
+                                          "source":  "上传文件",
+                                          "remark":  "PDF简历，含教育背景、项目经历、技能与联系方式",
+                                          "confidence":  0.98,
+                                          "uncertainFields":  [
+                                                                  "yearsOfExperience"
+                                                              ],
+                                          "positionTitle":  "后端开发",
+                                          "inputType":  "RESUME"
+                                      },
+                           "error":  null,
+                           "confidence":  0.98,
+                           "durationMs":  5689,
+                           "candidateId":  "cand_f763090c",
+                           "rawInputId":  "raw_fb3897ab",
+                           "createdAt":  "2026-04-26T06:41:02.372Z",
+                           "updatedAt":  "2026-04-26T06:41:02.372Z"
+                       },
+                       {
+                           "id":  "task_29712206",
+                           "agentName":  "qwen:DuplicateCheckAgent",
+                           "taskType":  "duplicate",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "phone":  "18270158043",
+                                         "email":  "2691126121@qq.com",
+                                         "name":  "汪聪",
+                                         "positionTitle":  "后端开发"
+                                     },
+                           "output":  {
+                                          "message":  "未发现重复候选人"
+                                      },
+                           "error":  null,
+                           "confidence":  0.94,
+                           "durationMs":  60,
+                           "candidateId":  "cand_f763090c",
+                           "rawInputId":  "raw_fb3897ab",
+                           "createdAt":  "2026-04-26T06:41:02.372Z",
+                           "updatedAt":  "2026-04-26T06:41:02.372Z"
+                       },
+                       {
+                           "id":  "task_06b2a895",
+                           "agentName":  "qwen:StatusTrackingAgent",
+                           "taskType":  "status",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "sourceType":  "RESUME"
+                                     },
+                           "output":  {
+                                          "status":  "NEW"
+                                      },
+                           "error":  null,
+                           "confidence":  0.98,
+                           "durationMs":  40,
+                           "candidateId":  "cand_f763090c",
+                           "rawInputId":  "raw_fb3897ab",
+                           "createdAt":  "2026-04-26T06:41:02.372Z",
+                           "updatedAt":  "2026-04-26T06:41:02.372Z"
+                       },
+                       {
+                           "id":  "task_b90bc1b7",
+                           "agentName":  "StatusTrackingAgent",
+                           "taskType":  "status",
+                           "status":  "SUCCESS",
+                           "input":  {
+                                         "candidateId":  "cand_f763090c",
+                                         "previousStatus":  "NEW",
+                                         "nextStatus":  "SCREENING"
+                                     },
+                           "output":  {
+                                          "message":  "状态更新已写入 RecruitmentLog。"
+                                      },
+                           "error":  null,
+                           "confidence":  0.95,
+                           "durationMs":  120,
+                           "candidateId":  "cand_f763090c",
+                           "rawInputId":  null,
+                           "createdAt":  "2026-04-26T07:07:46.093Z",
+                           "updatedAt":  "2026-04-26T07:07:46.093Z"
+                       }
+                   ],
+    "notifications":  [
+                          {
+                              "id":  "note_g1qv4gq4",
+                              "type":  "OFFER",
+                              "title":  "跟进 Offer 确认",
+                              "note":  "候选人承诺周三前反馈，建议今天下午再次确认。",
+                              "dueAt":  "2026-04-26T11:31:22.697Z",
+                              "done":  false,
+                              "candidateId":  "cand_zbc55eqw",
+                              "createdAt":  "2026-04-24T11:31:22.697Z",
+                              "updatedAt":  "2026-04-24T11:31:22.697Z"
+                          },
+                          {
+                              "id":  "note_4kflh4np",
+                              "type":  "FOLLOW_UP",
+                              "title":  "初筛提醒",
+                              "note":  "候选人已 6 天未更新，建议安排初筛电话。",
+                              "dueAt":  "2026-04-25T11:31:22.697Z",
+                              "done":  false,
+                              "candidateId":  "cand_bkxl3p48",
+                              "createdAt":  "2026-04-24T11:31:22.697Z",
+                              "updatedAt":  "2026-04-24T11:31:22.697Z"
+                          },
+                          {
+                              "id":  "note_e20e451f",
+                              "candidateId":  "cand_f763090c",
+                              "type":  "FOLLOW_UP",
+                              "title":  "候选人跟进提醒",
+                              "note":  "建议确认最新沟通进展，避免流程停滞。",
+                              "dueAt":  "2026-04-29T07:07:46.094Z",
+                              "done":  false,
+                              "createdAt":  "2026-04-26T06:41:51.538Z",
+                              "updatedAt":  "2026-04-26T07:07:46.094Z"
+                          }
+                      ]
+}

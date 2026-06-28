@@ -1,0 +1,737 @@
+{
+  "positions": [
+    {
+      "id": "pos_1tuo4mrh",
+      "title": "前端工程师",
+      "department": "产品研发",
+      "headcount": 2,
+      "owner": "Luna",
+      "description": "负责招聘中后台与数据可视化方向前端工程师。",
+      "status": "open",
+      "createdAt": "2026-04-25T09:34:38.206Z",
+      "updatedAt": "2026-04-25T09:34:38.207Z"
+    },
+    {
+      "id": "pos_ovxq4rlt",
+      "title": "测试开发工程师",
+      "department": "质量平台",
+      "headcount": 1,
+      "owner": "Ming",
+      "description": "负责自动化测试与平台能力建设。",
+      "status": "open",
+      "createdAt": "2026-04-25T09:34:38.207Z",
+      "updatedAt": "2026-04-25T09:34:38.207Z"
+    },
+    {
+      "id": "pos_uec7b0fv",
+      "title": "AI 产品经理",
+      "department": "AI 应用",
+      "headcount": 1,
+      "owner": "Jade",
+      "description": "负责 Agent 产品设计与业务场景落地。",
+      "status": "open",
+      "createdAt": "2026-04-25T09:34:38.207Z",
+      "updatedAt": "2026-04-25T09:34:38.207Z"
+    },
+    {
+      "id": "pos_9d3e2b5e",
+      "title": "AI 应用开发实习生",
+      "department": null,
+      "headcount": 1,
+      "owner": null,
+      "description": null,
+      "status": "open",
+      "createdAt": "2026-04-25T11:11:11.813Z",
+      "updatedAt": "2026-04-25T11:11:11.813Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand_e1v28qr8",
+      "name": "李文博",
+      "phone": "13800138000",
+      "email": "liwenbo@example.com",
+      "school": "华南理工大学",
+      "major": "软件工程",
+      "yearsOfExperience": 4,
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "ECharts"
+      ],
+      "status": "FIRST_INTERVIEW",
+      "source": "BOSS 直聘",
+      "remark": "一面反馈良好，可继续推进。",
+      "confidence": 0.91,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-23T09:34:38.207Z",
+      "deletedAt": null,
+      "positionId": "pos_1tuo4mrh",
+      "createdAt": "2026-04-18T09:34:38.225Z",
+      "updatedAt": "2026-04-23T09:34:38.225Z"
+    },
+    {
+      "id": "cand_8rkzsueq",
+      "name": "周嘉怡",
+      "phone": "13900139000",
+      "email": "zhoujiayi@example.com",
+      "school": "武汉大学",
+      "major": "信息管理",
+      "yearsOfExperience": 5,
+      "skills": [
+        "需求分析",
+        "用户研究",
+        "流程设计",
+        "AI Agent"
+      ],
+      "status": "OFFER",
+      "source": "内部推荐",
+      "remark": "Offer 已发出，等待候选人确认。",
+      "confidence": 0.88,
+      "uncertainFields": [
+        "期望薪资"
+      ],
+      "lastFollowUpAt": "2026-04-24T09:34:38.225Z",
+      "deletedAt": null,
+      "positionId": "pos_uec7b0fv",
+      "createdAt": "2026-04-20T09:34:38.225Z",
+      "updatedAt": "2026-04-24T09:34:38.225Z"
+    },
+    {
+      "id": "cand_km7p2rjr",
+      "name": "陈启航",
+      "phone": "13700137000",
+      "email": "chenqihang@example.com",
+      "school": "哈尔滨工业大学",
+      "major": "计算机科学与技术",
+      "yearsOfExperience": 3,
+      "skills": [
+        "Playwright",
+        "Python",
+        "CI/CD",
+        "质量平台"
+      ],
+      "status": "SCREENING",
+      "source": "拉勾",
+      "remark": "等待 HR 初筛电话。",
+      "confidence": 0.79,
+      "uncertainFields": [
+        "项目年限"
+      ],
+      "lastFollowUpAt": "2026-04-19T09:34:38.225Z",
+      "deletedAt": null,
+      "positionId": "pos_ovxq4rlt",
+      "createdAt": "2026-04-22T09:34:38.225Z",
+      "updatedAt": "2026-04-24T09:34:38.225Z"
+    },
+    {
+      "id": "cand_a9699407",
+      "name": "张晨",
+      "phone": "13800138001",
+      "email": "zhangchen@example.com",
+      "school": "南京大学",
+      "major": "软件工程",
+      "yearsOfExperience": null,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Spring AI",
+        "LangChain4j",
+        "MySQL",
+        "Redis",
+        "Docker"
+      ],
+      "status": "FIRST_INTERVIEW",
+      "source": null,
+      "remark": "简历筛选通过，建议安排一面",
+      "confidence": 0.95,
+      "uncertainFields": [
+        "yearsOfExperience",
+        "source"
+      ],
+      "lastFollowUpAt": "2026-04-25T11:11:11.812Z",
+      "deletedAt": null,
+      "positionId": "pos_9d3e2b5e",
+      "createdAt": "2026-04-25T11:11:11.812Z",
+      "updatedAt": "2026-04-25T11:11:11.812Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_gvu6gl86",
+      "candidateId": "cand_e1v28qr8",
+      "fromStatus": null,
+      "toStatus": "FIRST_INTERVIEW",
+      "note": "候选人进入系统",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-18T09:34:38.225Z"
+    },
+    {
+      "id": "log_lxl28wum",
+      "candidateId": "cand_8rkzsueq",
+      "fromStatus": null,
+      "toStatus": "OFFER",
+      "note": "候选人进入系统",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-20T09:34:38.225Z"
+    },
+    {
+      "id": "log_i5sr5ipo",
+      "candidateId": "cand_km7p2rjr",
+      "fromStatus": null,
+      "toStatus": "SCREENING",
+      "note": "候选人进入系统",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-22T09:34:38.225Z"
+    },
+    {
+      "id": "log_db026daa",
+      "candidateId": "cand_a9699407",
+      "fromStatus": null,
+      "toStatus": "FIRST_INTERVIEW",
+      "note": "候选人通过 Agent Intake 创建。",
+      "source": "agent",
+      "createdBy": "system",
+      "createdAt": "2026-04-25T11:11:11.812Z"
+    }
+  ],
+  "rawInputs": [
+    {
+      "id": "raw_53vi0vbh",
+      "candidateId": "cand_e1v28qr8",
+      "inputType": "RESUME",
+      "content": "姓名：李文博\n电话：13800138000\n邮箱：liwenbo@example.com\n学校：华南理工大学\n技能：React、Next.js、TypeScript、ECharts",
+      "parsedResult": {
+        "source": "seed"
+      },
+      "createdAt": "2026-04-18T09:34:38.225Z"
+    },
+    {
+      "id": "raw_isotyn7f",
+      "candidateId": "cand_8rkzsueq",
+      "inputType": "EMAIL",
+      "content": "Offer 邮件已发送，候选人表示周三前给回复。",
+      "parsedResult": {
+        "source": "seed"
+      },
+      "createdAt": "2026-04-23T09:34:38.225Z"
+    },
+    {
+      "id": "raw_c459283f",
+      "candidateId": "cand_a9699407",
+      "inputType": "RESUME",
+      "content": "候选人张晨，电话 13800138001，邮箱 zhangchen@example.com，目前就读于南京大学软件工程专业，硕士二年级。投递岗位为 AI 应用开发实习生。候选人熟悉 Java、Spring Boot、Spring AI、LangChain4j、MySQL、Redis 和 Docker，曾参与智能客服 RAG 系统开发，负责知识库切片、向量检索和 SSE 流式输出。当前状态为简历筛选通过，建议安排一面。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "name": "张晨",
+          "phone": "13800138001",
+          "email": "zhangchen@example.com",
+          "school": "南京大学",
+          "major": "软件工程",
+          "yearsOfExperience": null,
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "Spring AI",
+            "LangChain4j",
+            "MySQL",
+            "Redis",
+            "Docker"
+          ],
+          "status": "FIRST_INTERVIEW",
+          "source": null,
+          "remark": "简历筛选通过，建议安排一面",
+          "confidence": 0.95,
+          "uncertainFields": [
+            "yearsOfExperience",
+            "source"
+          ],
+          "positionTitle": "AI 应用开发实习生",
+          "inputType": "RESUME"
+        },
+        "candidateId": "cand_a9699407",
+        "savedAt": "2026-04-25T11:11:11.812Z"
+      },
+      "createdAt": "2026-04-25T11:10:45.397Z"
+    },
+    {
+      "id": "raw_7190bb71",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "??:??\n??:13800138000\n??:zhangsan@example.com\n??:????\n????:?????\n??:React?TypeScript?Next.js",
+      "parsedResult": {
+        "provider": "qwen",
+        "status": "failed",
+        "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+        "inputMeta": null
+      },
+      "createdAt": "2026-04-25T11:24:47.413Z"
+    },
+    {
+      "id": "raw_7373477d",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "??:??\n??:13800138000\n??:zhangsan@example.com\n??:????\n????:?????\n??:React?TypeScript?Next.js",
+      "parsedResult": {
+        "provider": "qwen",
+        "status": "failed",
+        "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+        "inputMeta": null
+      },
+      "createdAt": "2026-04-25T11:25:10.231Z"
+    },
+    {
+      "id": "raw_3376b680",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "??:??\n??:13800138000\n??:zhangsan@example.com\n??:????\n????:?????\n??:React?TypeScript?Next.js",
+      "parsedResult": {
+        "provider": "qwen",
+        "status": "failed",
+        "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+        "inputMeta": null
+      },
+      "createdAt": "2026-04-25T11:25:37.915Z"
+    },
+    {
+      "id": "raw_12b89a0a",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "姓名：李四\n电话：13900139000\n邮箱：lisi@example.com\n学校：复旦大学\n应聘岗位：测试开发工程师\n技能：Playwright、Python",
+      "parsedResult": {
+        "provider": "qwen",
+        "inputMeta": {
+          "fileName": "tmp-upload.txt",
+          "mimeType": "text/plain",
+          "fileSize": 155
+        },
+        "result": {
+          "name": "李四",
+          "phone": "13900139000",
+          "email": "lisi@example.com",
+          "school": "复旦大学",
+          "major": null,
+          "yearsOfExperience": null,
+          "skills": [
+            "Playwright",
+            "Python"
+          ],
+          "status": "NEW",
+          "source": null,
+          "remark": "来自上传的文本文件，包含基础候选人信息。",
+          "confidence": 0.99,
+          "uncertainFields": [
+            "major",
+            "yearsOfExperience",
+            "source"
+          ],
+          "positionTitle": "测试开发工程师",
+          "inputType": "OTHER"
+        }
+      },
+      "createdAt": "2026-04-25T11:25:38.047Z"
+    },
+    {
+      "id": "raw_cce6d268",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "??:??\n??:13800138000\n??:zhangsan@example.com\n??:????\n????:?????\n??:React?TypeScript?Next.js",
+      "parsedResult": {
+        "provider": "qwen",
+        "status": "failed",
+        "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+        "inputMeta": null
+      },
+      "createdAt": "2026-04-25T11:25:56.658Z"
+    },
+    {
+      "id": "raw_469e05f6",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "??:??\n??:13800138000\n??:zhangsan@example.com\n??:????\n????:?????\n??:React?TypeScript?Next.js",
+      "parsedResult": {
+        "provider": "qwen",
+        "status": "failed",
+        "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+        "inputMeta": null
+      },
+      "createdAt": "2026-04-25T11:26:12.920Z"
+    },
+    {
+      "id": "raw_739f0a17",
+      "candidateId": null,
+      "inputType": "OTHER",
+      "content": "??:??\n??:13800138000\n??:zhangsan@example.com\n??:????\n????:?????\n??:React?TypeScript?Next.js",
+      "parsedResult": {
+        "provider": "qwen",
+        "status": "processing",
+        "inputMeta": null
+      },
+      "createdAt": "2026-04-25T11:26:57.568Z"
+    }
+  ],
+  "agentTasks": [
+    {
+      "id": "task_s4sfwn5q",
+      "agentName": "CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "source": "seed resume"
+      },
+      "output": {
+        "candidate": "李文博"
+      },
+      "error": null,
+      "confidence": 0.91,
+      "durationMs": 1820,
+      "candidateId": "cand_e1v28qr8",
+      "rawInputId": null,
+      "createdAt": "2026-04-18T09:34:38.225Z",
+      "updatedAt": "2026-04-18T09:34:38.225Z"
+    },
+    {
+      "id": "task_o497j81b",
+      "agentName": "StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "note": "Offer sent"
+      },
+      "output": {
+        "status": "OFFER"
+      },
+      "error": null,
+      "confidence": 0.87,
+      "durationMs": 860,
+      "candidateId": "cand_8rkzsueq",
+      "rawInputId": null,
+      "createdAt": "2026-04-23T09:34:38.225Z",
+      "updatedAt": "2026-04-23T09:34:38.225Z"
+    },
+    {
+      "id": "task_hjbc8h5e",
+      "agentName": "ReminderAgent",
+      "taskType": "reminder",
+      "status": "NEED_REVIEW",
+      "input": {
+        "candidate": "陈启航"
+      },
+      "output": {
+        "due": "2026-04-26T09:34:38.225Z"
+      },
+      "error": null,
+      "confidence": 0.63,
+      "durationMs": 410,
+      "candidateId": "cand_km7p2rjr",
+      "rawInputId": null,
+      "createdAt": "2026-04-24T09:34:38.225Z",
+      "updatedAt": "2026-04-24T09:34:38.225Z"
+    },
+    {
+      "id": "task_2f59ac02",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "contentLength": 210
+      },
+      "output": {
+        "name": "张晨",
+        "phone": "13800138001",
+        "email": "zhangchen@example.com",
+        "school": "南京大学",
+        "major": "软件工程",
+        "yearsOfExperience": null,
+        "skills": [
+          "Java",
+          "Spring Boot",
+          "Spring AI",
+          "LangChain4j",
+          "MySQL",
+          "Redis",
+          "Docker"
+        ],
+        "status": "FIRST_INTERVIEW",
+        "source": null,
+        "remark": "简历筛选通过，建议安排一面",
+        "confidence": 0.95,
+        "uncertainFields": [
+          "yearsOfExperience",
+          "source"
+        ],
+        "positionTitle": "AI 应用开发实习生",
+        "inputType": "RESUME"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 5452,
+      "candidateId": null,
+      "rawInputId": "raw_c459283f",
+      "createdAt": "2026-04-25T11:10:45.397Z",
+      "updatedAt": "2026-04-25T11:10:45.397Z"
+    },
+    {
+      "id": "task_c24a7f8a",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13800138001",
+        "email": "zhangchen@example.com",
+        "name": "张晨",
+        "positionTitle": "AI 应用开发实习生"
+      },
+      "output": {
+        "message": "未发现重复候选人"
+      },
+      "error": null,
+      "confidence": 0.94,
+      "durationMs": 60,
+      "candidateId": null,
+      "rawInputId": "raw_c459283f",
+      "createdAt": "2026-04-25T11:10:45.397Z",
+      "updatedAt": "2026-04-25T11:10:45.397Z"
+    },
+    {
+      "id": "task_741ffa91",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "status": "FIRST_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 40,
+      "candidateId": null,
+      "rawInputId": "raw_c459283f",
+      "createdAt": "2026-04-25T11:10:45.397Z",
+      "updatedAt": "2026-04-25T11:10:45.397Z"
+    },
+    {
+      "id": "task_56b37912",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "FAILED",
+      "input": {
+        "rawInputId": "raw_7190bb71"
+      },
+      "output": null,
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+      "confidence": null,
+      "durationMs": null,
+      "candidateId": null,
+      "rawInputId": "raw_7190bb71",
+      "createdAt": "2026-04-25T11:24:47.413Z",
+      "updatedAt": "2026-04-25T11:24:47.413Z"
+    },
+    {
+      "id": "task_61518a29",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "FAILED",
+      "input": {
+        "rawInputId": "raw_7373477d"
+      },
+      "output": null,
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+      "confidence": null,
+      "durationMs": null,
+      "candidateId": null,
+      "rawInputId": "raw_7373477d",
+      "createdAt": "2026-04-25T11:25:10.231Z",
+      "updatedAt": "2026-04-25T11:25:10.231Z"
+    },
+    {
+      "id": "task_38c07ae7",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "contentLength": 122,
+        "fileName": "tmp-upload.txt",
+        "mimeType": "text/plain",
+        "fileSize": 155
+      },
+      "output": {
+        "name": "李四",
+        "phone": "13900139000",
+        "email": "lisi@example.com",
+        "school": "复旦大学",
+        "major": null,
+        "yearsOfExperience": null,
+        "skills": [
+          "Playwright",
+          "Python"
+        ],
+        "status": "NEW",
+        "source": null,
+        "remark": "来自上传的文本文件，包含基础候选人信息。",
+        "confidence": 0.99,
+        "uncertainFields": [
+          "major",
+          "yearsOfExperience",
+          "source"
+        ],
+        "positionTitle": "测试开发工程师",
+        "inputType": "OTHER"
+      },
+      "error": null,
+      "confidence": 0.99,
+      "durationMs": 3706,
+      "candidateId": null,
+      "rawInputId": "raw_12b89a0a",
+      "createdAt": "2026-04-25T11:25:38.047Z",
+      "updatedAt": "2026-04-25T11:25:38.047Z"
+    },
+    {
+      "id": "task_8d7c4bdf",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "NEED_REVIEW",
+      "input": {
+        "phone": "13900139000",
+        "email": "lisi@example.com",
+        "name": "李四",
+        "positionTitle": "测试开发工程师"
+      },
+      "output": {
+        "candidateId": "cand_8rkzsueq",
+        "candidateName": "周嘉怡",
+        "reasons": [
+          "手机号一致"
+        ],
+        "score": 0.55,
+        "status": "OFFER",
+        "positionTitle": "AI 产品经理"
+      },
+      "error": null,
+      "confidence": 0.55,
+      "durationMs": 60,
+      "candidateId": null,
+      "rawInputId": "raw_12b89a0a",
+      "createdAt": "2026-04-25T11:25:38.047Z",
+      "updatedAt": "2026-04-25T11:25:38.047Z"
+    },
+    {
+      "id": "task_401f6276",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "OTHER"
+      },
+      "output": {
+        "status": "NEW"
+      },
+      "error": null,
+      "confidence": 0.99,
+      "durationMs": 40,
+      "candidateId": null,
+      "rawInputId": "raw_12b89a0a",
+      "createdAt": "2026-04-25T11:25:38.047Z",
+      "updatedAt": "2026-04-25T11:25:38.047Z"
+    },
+    {
+      "id": "task_a86ba8da",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "FAILED",
+      "input": {
+        "rawInputId": "raw_3376b680"
+      },
+      "output": null,
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+      "confidence": null,
+      "durationMs": null,
+      "candidateId": null,
+      "rawInputId": "raw_3376b680",
+      "createdAt": "2026-04-25T11:25:37.915Z",
+      "updatedAt": "2026-04-25T11:25:37.915Z"
+    },
+    {
+      "id": "task_86a150af",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "FAILED",
+      "input": {
+        "rawInputId": "raw_cce6d268"
+      },
+      "output": null,
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+      "confidence": null,
+      "durationMs": null,
+      "candidateId": null,
+      "rawInputId": "raw_cce6d268",
+      "createdAt": "2026-04-25T11:25:56.658Z",
+      "updatedAt": "2026-04-25T11:25:56.658Z"
+    },
+    {
+      "id": "task_3de3115f",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "FAILED",
+      "input": {
+        "rawInputId": "raw_469e05f6"
+      },
+      "output": null,
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+      "confidence": null,
+      "durationMs": null,
+      "candidateId": null,
+      "rawInputId": "raw_469e05f6",
+      "createdAt": "2026-04-25T11:26:12.920Z",
+      "updatedAt": "2026-04-25T11:26:12.920Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "note_slbh7fye",
+      "type": "OFFER",
+      "title": "跟进 Offer 确认",
+      "note": "候选人承诺周三前反馈，建议今天下午再次确认。",
+      "dueAt": "2026-04-26T09:34:38.225Z",
+      "done": false,
+      "candidateId": "cand_8rkzsueq",
+      "createdAt": "2026-04-24T09:34:38.225Z",
+      "updatedAt": "2026-04-24T09:34:38.225Z"
+    },
+    {
+      "id": "note_45p8r7c7",
+      "type": "FOLLOW_UP",
+      "title": "初筛提醒",
+      "note": "候选人已 6 天未更新，建议安排初筛电话。",
+      "dueAt": "2026-04-25T09:34:38.225Z",
+      "done": false,
+      "candidateId": "cand_km7p2rjr",
+      "createdAt": "2026-04-24T09:34:38.225Z",
+      "updatedAt": "2026-04-24T09:34:38.225Z"
+    },
+    {
+      "id": "note_089b7702",
+      "candidateId": "cand_a9699407",
+      "type": "INTERVIEW",
+      "title": "面试反馈提醒",
+      "note": "建议催收面试官反馈并更新阶段。",
+      "dueAt": "2026-04-27T11:11:11.813Z",
+      "done": false,
+      "createdAt": "2026-04-25T11:11:11.813Z",
+      "updatedAt": "2026-04-25T11:11:11.813Z"
+    }
+  ]
+}     "dueAt": "2026-04-27T11:11:11.813Z",
+      "done": false,
+      "createdAt": "2026-04-25T11:11:11.813Z",
+      "updatedAt": "2026-04-25T11:11:11.813Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "testin-recruitflow-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "db:local": "node scripts/start-local-postgres.mjs",
+    "build": "next build",
+    "start": "next start",
+    "predeploy:check": "node scripts/predeploy-check.js",
+    "demo:reset": "node scripts/reset-demo-assets.js",
+    "admin:bootstrap": "node scripts/bootstrap-admin.js",
+    "hr:bootstrap": "node scripts/bootstrap-admin.js --role recruiter --email hr@testin.local --name \"Testin HR\" --password \"Hr123456\"",
+    "db:push": "prisma db push",
+    "db:seed": "node prisma/seed.js",
+    "prisma:generate": "prisma generate"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.0.0",
+    "mammoth": "^1.12.0",
+    "next": "^15.0.0",
+    "openai": "^6.34.0",
+    "pdf-parse": "^2.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "embedded-postgres": "^18.4.0-beta.17",
+    "prisma": "^6.0.0",
+    "typescript": "^5.7.2"
+  }
+}

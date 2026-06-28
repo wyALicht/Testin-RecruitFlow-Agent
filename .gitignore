@@ -1,0 +1,11 @@
+.next
+node_modules
+.npm-cache
+.local-postgres
+*.log
+.env
+.env.local
+prisma/dev.db
+prisma/dev.db-journal
+tmp/
+*.dmp

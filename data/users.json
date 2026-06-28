@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1efd15e0d080",
+    "name": "Testin Admin",
+    "email": "admin@testin.local",
+    "passwordHash": "dae4bbcad3e3d867386324c42286326a:b63c130a414ab8bbfb6d16683b03219100cb893dcf23e1f9a22261971f892d2a8cd59cb9d9a2b393d938f5015b0ac8bbf479faeffcd54c44cc450205637d4d05",
+    "role": "admin",
+    "createdAt": "2026-04-26T12:07:44.025Z"
+  },
+  {
+    "id": "9c478d56ef8f",
+    "name": "Testin HR",
+    "email": "hr@testin.local",
+    "passwordHash": "94c3f8086c0ca3dade03fc1aaa496ebc:48e0e49a9c07f4071d5d2a093fa02a7b8c061f4ce47790df349c0e080870047fe2c97a065be005bc965e06120db9e96b6a40233674f4741e6464abad122fb65c",
+    "role": "recruiter",
+    "createdAt": "2026-04-26T12:07:44.058Z"
+  },
+  {
+    "id": "c771e3fd185b",
+    "name": "张三",
+    "email": "zhangsan@test.local",
+    "passwordHash": "7ebe3320f0ccd5a5ae25a913aab8dabc:687f8d4fd603418a46279f1b4b1ed17df4fa9979ea51dc4671c2a27dafd2629ac5f788b4f856341f123d0395c364cffcfa5b325733af7e2395ddf7d3e1e1e284",
+    "role": "recruiter",
+    "createdAt": "2026-04-27T03:19:41.494Z"
+  }
+]

@@ -1,0 +1,4120 @@
+{
+  "positions": [
+    {
+      "id": "pos_mock_frontend",
+      "title": "前端工程师",
+      "department": "平台研发",
+      "headcount": 2,
+      "owner": "Luna",
+      "description": "负责招聘系统、数据看板和内部工具前端开发。",
+      "status": "open",
+      "createdAt": "2026-04-01T09:00:00.000Z",
+      "updatedAt": "2026-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "pos_mock_backend",
+      "title": "后端工程师",
+      "department": "平台研发",
+      "headcount": 3,
+      "owner": "Ming",
+      "description": "负责核心服务、Agent 编排能力与平台接口开发。",
+      "status": "open",
+      "createdAt": "2026-04-02T09:00:00.000Z",
+      "updatedAt": "2026-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "pos_mock_ai_pm",
+      "title": "AI 产品经理",
+      "department": "AI 应用",
+      "headcount": 1,
+      "owner": "Jade",
+      "description": "负责智能招聘流程设计、AI Intake 策略与业务落地。",
+      "status": "open",
+      "createdAt": "2026-04-03T09:00:00.000Z",
+      "updatedAt": "2026-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "pos_mock_qa",
+      "title": "测试开发工程师",
+      "department": "质量平台",
+      "headcount": 1,
+      "owner": "Iris",
+      "description": "负责自动化测试平台、质量数据和回归保障。",
+      "status": "open",
+      "createdAt": "2026-04-04T09:00:00.000Z",
+      "updatedAt": "2026-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "pos_mock_data",
+      "title": "数据分析师",
+      "department": "经营分析",
+      "headcount": 1,
+      "owner": "Evan",
+      "description": "负责招聘漏斗分析、渠道转化和人才画像分析。",
+      "status": "open",
+      "createdAt": "2026-04-05T09:00:00.000Z",
+      "updatedAt": "2026-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "pos_mock_algo",
+      "title": "算法工程师",
+      "department": "AI Lab",
+      "headcount": 2,
+      "owner": "Noah",
+      "description": "负责简历理解、候选人匹配和排序模型。",
+      "status": "open",
+      "createdAt": "2026-04-06T09:00:00.000Z",
+      "updatedAt": "2026-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "pos_93220590",
+      "title": "算法工程师 / 大模型应用工程师",
+      "department": null,
+      "headcount": 1,
+      "owner": null,
+      "description": null,
+      "status": "open",
+      "createdAt": "2026-04-27T05:40:30.676Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "pos_c88bd0f5",
+      "title": "前端开发工程师",
+      "department": null,
+      "headcount": 1,
+      "owner": null,
+      "description": null,
+      "status": "open",
+      "createdAt": "2026-04-27T05:51:46.729Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand_mock_lin_yucheng",
+      "name": "林语澄",
+      "phone": "13600001001",
+      "email": "lin.yucheng@example.com",
+      "school": "华南理工大学",
+      "major": "软件工程",
+      "yearsOfExperience": 5,
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "ECharts"
+      ],
+      "status": "FINAL_INTERVIEW",
+      "source": "BOSS直聘",
+      "remark": "产品理解和前端架构能力都很强，正在安排终面时间。",
+      "confidence": 0.94,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-25T10:30:00.000Z",
+      "positionId": "pos_mock_frontend",
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "updatedAt": "2026-04-25T10:30:00.000Z",
+      "provider": "qwen",
+      "inputType": "RESUME",
+      "rawContent": "简历录入：林语澄，前端工程师，5 年经验，长期负责数据看板和内部平台项目。",
+      "deletedAt": null,
+      "tags": [
+        "前端",
+        "后端",
+        "产品",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议同步终面结果，并提前准备 offer 沟通方案。"
+    },
+    {
+      "id": "cand_mock_zhao_wenjing",
+      "name": "赵文静",
+      "phone": "13600001002",
+      "email": "zhaowj@example.com",
+      "school": "武汉大学",
+      "major": "信息管理",
+      "yearsOfExperience": 6,
+      "skills": [
+        "需求分析",
+        "用户研究",
+        "流程设计",
+        "提示词设计",
+        "SQL"
+      ],
+      "status": "SCREENING",
+      "source": "内部推荐",
+      "remark": "由业务负责人内推，当前还在等待 HR 完成初筛电话。",
+      "confidence": 0.87,
+      "uncertainFields": [
+        "期望薪资"
+      ],
+      "lastFollowUpAt": "2026-04-24T08:40:00.000Z",
+      "positionId": "pos_mock_ai_pm",
+      "createdAt": "2026-04-18T08:40:00.000Z",
+      "updatedAt": "2026-04-24T08:40:00.000Z",
+      "provider": "deepseek",
+      "inputType": "NOTE",
+      "rawContent": "内推备注：AI 产品经理方向，流程设计和用户研究背景扎实，建议尽快安排初筛。",
+      "deletedAt": null,
+      "tags": [
+        "产品",
+        "数据",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议今天完成初筛电话，确认期望薪资、到岗时间和岗位匹配度。"
+    },
+    {
+      "id": "cand_mock_he_junkai",
+      "name": "何俊凯",
+      "phone": "13600001003",
+      "email": "hejunkai@example.com",
+      "school": "哈尔滨工业大学",
+      "major": "计算机科学与技术",
+      "yearsOfExperience": 4,
+      "skills": [
+        "Playwright",
+        "Python",
+        "CI/CD",
+        "接口测试",
+        "质量平台"
+      ],
+      "status": "WRITTEN_TEST",
+      "source": "拉勾",
+      "remark": "笔试已发出，候选人表示今晚会完成并回传。",
+      "confidence": 0.9,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-23T14:20:00.000Z",
+      "positionId": "pos_mock_qa",
+      "createdAt": "2026-04-15T14:20:00.000Z",
+      "updatedAt": "2026-04-23T14:20:00.000Z",
+      "provider": "qwen",
+      "inputType": "EMAIL",
+      "rawContent": "邮件记录：测试开发候选人已收到笔试并承诺今晚提交结果。",
+      "deletedAt": null,
+      "tags": [
+        "测试",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议在 24 小时内确认笔试完成时间，并约定结果回收节点。"
+    },
+    {
+      "id": "cand_mock_su_qinghe",
+      "name": "苏清和",
+      "phone": "13600001004",
+      "email": "suqinghe@example.com",
+      "school": "中山大学",
+      "major": "统计学",
+      "yearsOfExperience": 5,
+      "skills": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Looker Studio",
+        "A/B 测试"
+      ],
+      "status": "OFFER",
+      "source": "智联招聘",
+      "remark": "Offer 已发出，候选人将在周一上午前给最终回复。",
+      "confidence": 0.92,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-25T02:10:00.000Z",
+      "positionId": "pos_mock_data",
+      "createdAt": "2026-04-14T11:10:00.000Z",
+      "updatedAt": "2026-04-25T02:10:00.000Z",
+      "provider": "deepseek",
+      "inputType": "EMAIL",
+      "rawContent": "Offer 邮件已发送，候选人会在周一上午十点前确认最终决定。",
+      "deletedAt": null,
+      "tags": [
+        "测试",
+        "数据",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议在 24 小时内跟进 Offer 接受情况，并确认入职意向。"
+    },
+    {
+      "id": "cand_mock_tang_jianing",
+      "name": "唐嘉宁",
+      "phone": "13600001005",
+      "email": "tangjn@example.com",
+      "school": "北京邮电大学",
+      "major": "数字媒体技术",
+      "yearsOfExperience": 3,
+      "skills": [
+        "Vue",
+        "React",
+        "Figma",
+        "设计系统",
+        "可访问性"
+      ],
+      "status": "ONBOARD",
+      "source": "校园招聘",
+      "remark": "候选人已接受 offer，入职材料还差一项待补齐。",
+      "confidence": 0.95,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-22T06:50:00.000Z",
+      "positionId": "pos_mock_frontend",
+      "createdAt": "2026-04-10T06:50:00.000Z",
+      "updatedAt": "2026-04-22T06:50:00.000Z",
+      "provider": "qwen",
+      "inputType": "RESUME",
+      "rawContent": "校招简历：唐嘉宁，前端工程师方向，已接受 offer，正在准备入职。",
+      "deletedAt": null,
+      "tags": [
+        "前端",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议确认入职材料、报到时间和对接人信息。"
+    },
+    {
+      "id": "cand_mock_gu_yuanzhou",
+      "name": "顾远舟",
+      "phone": "13600001006",
+      "email": "guyz@example.com",
+      "school": "上海交通大学",
+      "major": "人工智能",
+      "yearsOfExperience": 2,
+      "skills": [
+        "PyTorch",
+        "LLM",
+        "RAG",
+        "向量检索",
+        "Python"
+      ],
+      "status": "NEW",
+      "source": "上传文件",
+      "remark": "扫描版简历，AI 抽取置信度一般，需要人工复核关键信息。",
+      "confidence": 0.71,
+      "uncertainFields": [
+        "工作年限",
+        "论文情况"
+      ],
+      "lastFollowUpAt": "2026-04-26T03:15:00.000Z",
+      "positionId": "pos_mock_algo",
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "updatedAt": "2026-04-26T03:15:00.000Z",
+      "provider": "qwen",
+      "inputType": "RESUME",
+      "rawContent": "上传的扫描简历提到 RAG、向量检索和模型评测方向，部分字段仍待确认。",
+      "deletedAt": null,
+      "tags": [
+        "算法",
+        "社招",
+        "需复核"
+      ],
+      "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。 同时确认工作年限。"
+    },
+    {
+      "id": "cand_mock_chen_xiaobei",
+      "name": "陈晓北",
+      "phone": "13600001007",
+      "email": "chenxb@example.com",
+      "school": "同济大学",
+      "major": "软件工程",
+      "yearsOfExperience": 4,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Redis",
+        "微服务"
+      ],
+      "status": "FIRST_INTERVIEW",
+      "source": "BOSS直聘",
+      "remark": "后端基础扎实，一面已结束，反馈较为积极。",
+      "confidence": 0.91,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-24T05:00:00.000Z",
+      "positionId": "pos_mock_backend",
+      "createdAt": "2026-04-13T05:00:00.000Z",
+      "updatedAt": "2026-04-24T05:00:00.000Z",
+      "provider": "deepseek",
+      "inputType": "CHAT",
+      "rawContent": "聊天记录摘要：具备微服务经验的后端候选人已通过一面。",
+      "deletedAt": null,
+      "tags": [
+        "后端",
+        "数据",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议今天催收一面反馈，并与候选人确认下一轮可约时间。"
+    },
+    {
+      "id": "cand_mock_liu_shiyi",
+      "name": "刘诗怡",
+      "phone": "13600001008",
+      "email": "liusy@example.com",
+      "school": "南京大学",
+      "major": "数据科学",
+      "yearsOfExperience": 4,
+      "skills": [
+        "Python",
+        "dbt",
+        "Airflow",
+        "数据建模",
+        "Power BI"
+      ],
+      "status": "SECOND_INTERVIEW",
+      "source": "内部推荐",
+      "remark": "业务沟通能力很强，准备进入分析负责人二面。",
+      "confidence": 0.89,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-24T12:10:00.000Z",
+      "positionId": "pos_mock_data",
+      "createdAt": "2026-04-16T12:10:00.000Z",
+      "updatedAt": "2026-04-24T12:10:00.000Z",
+      "provider": "qwen",
+      "inputType": "NOTE",
+      "rawContent": "招聘备注：沟通表达和分析思维都很好，建议推进至二面。",
+      "deletedAt": null,
+      "tags": [
+        "数据",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议尽快确认二面反馈，并锁定终面可约时间。"
+    },
+    {
+      "id": "cand_mock_qin_meng",
+      "name": "秦萌",
+      "phone": "13600001009",
+      "email": "qinmeng@example.com",
+      "school": "厦门大学",
+      "major": "人机交互",
+      "yearsOfExperience": 3,
+      "skills": [
+        "交互设计",
+        "Figma",
+        "研究运营",
+        "旅程地图",
+        "设计评审"
+      ],
+      "status": "REJECTED",
+      "source": "Maimai",
+      "remark": "背景有亮点，但与当前岗位所需的 AI 流程经验仍有明显差距。",
+      "confidence": 0.82,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-21T07:20:00.000Z",
+      "positionId": "pos_mock_ai_pm",
+      "createdAt": "2026-04-11T07:20:00.000Z",
+      "updatedAt": "2026-04-21T07:20:00.000Z",
+      "provider": "deepseek",
+      "inputType": "RESUME",
+      "rawContent": "AI 产品岗位简历评审记录：候选人因经验匹配度不足而未继续推进。",
+      "deletedAt": null,
+      "tags": [
+        "产品",
+        "社招"
+      ],
+      "followUpSuggestion": "建议补齐淘汰原因和沟通记录，便于后续复盘。"
+    },
+    {
+      "id": "cand_mock_yu_haonan",
+      "name": "余皓南",
+      "phone": "13600001010",
+      "email": "yuhaonan@example.com",
+      "school": "浙江大学",
+      "major": "计算机工程",
+      "yearsOfExperience": 7,
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Kafka",
+        "可观测性",
+        "分布式系统"
+      ],
+      "status": "WITHDRAWN",
+      "source": "BOSS直聘",
+      "remark": "候选人因拿到更高优先级的外部 offer，主动撤回流程。",
+      "confidence": 0.93,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-20T13:50:00.000Z",
+      "positionId": "pos_mock_backend",
+      "createdAt": "2026-04-08T13:50:00.000Z",
+      "updatedAt": "2026-04-20T13:50:00.000Z",
+      "provider": "qwen",
+      "inputType": "EMAIL",
+      "rawContent": "邮件更新：后端候选人因已接受其他 offer，终止当前流程。",
+      "deletedAt": null,
+      "tags": [
+        "后端",
+        "产品",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议记录放弃原因，并确认是否保留后续岗位机会。"
+    },
+    {
+      "id": "cand_mock_wen_jiakai",
+      "name": "温嘉凯",
+      "phone": "13600001011",
+      "email": "wenjk@example.com",
+      "school": "华中科技大学",
+      "major": "自动化",
+      "yearsOfExperience": 2,
+      "skills": [
+        "Selenium",
+        "Python",
+        "Robot Framework",
+        "Postman",
+        "JMeter"
+      ],
+      "status": "SCREENING",
+      "source": "校园招聘",
+      "remark": "偏校招到初级岗画像，需确认测试深度与实习到岗时间。",
+      "confidence": 0.78,
+      "uncertainFields": [
+        "毕业时间"
+      ],
+      "lastFollowUpAt": "2026-04-26T01:45:00.000Z",
+      "positionId": "pos_mock_qa",
+      "createdAt": "2026-04-22T01:45:00.000Z",
+      "updatedAt": "2026-04-26T01:45:00.000Z",
+      "provider": "deepseek",
+      "inputType": "RESUME",
+      "rawContent": "校招简历：测试开发候选人有实习测试经验，毕业时间仍需确认。",
+      "deletedAt": null,
+      "tags": [
+        "测试",
+        "校招"
+      ],
+      "followUpSuggestion": "建议今天完成初筛电话，确认期望薪资、到岗时间和岗位匹配度。"
+    },
+    {
+      "id": "cand_mock_fang_xinyi",
+      "name": "方欣怡",
+      "phone": "13600001012",
+      "email": "fangxy@example.com",
+      "school": "四川大学",
+      "major": "新闻传播学",
+      "yearsOfExperience": 4,
+      "skills": [
+        "内容策略",
+        "提示词编写",
+        "流程文档",
+        "跨团队协作"
+      ],
+      "status": "NEW",
+      "source": "上传文件",
+      "remark": "从内容运营转向 AI 产品运营，转型画像较有潜力。",
+      "confidence": 0.74,
+      "uncertainFields": [
+        "当前岗位"
+      ],
+      "lastFollowUpAt": "2026-04-26T06:20:00.000Z",
+      "positionId": "pos_mock_ai_pm",
+      "createdAt": "2026-04-26T06:20:00.000Z",
+      "updatedAt": "2026-04-26T06:20:00.000Z",
+      "provider": "qwen",
+      "inputType": "RESUME",
+      "rawContent": "上传简历：具备提示词编写和流程文档能力的复合型运营背景。",
+      "deletedAt": null,
+      "tags": [
+        "产品",
+        "社招"
+      ],
+      "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。"
+    },
+    {
+      "id": "cand_mock_pang_zihao",
+      "name": "庞子昊",
+      "phone": "13600001013",
+      "email": "pangzh@example.com",
+      "school": "东北大学",
+      "major": "统计学",
+      "yearsOfExperience": 6,
+      "skills": [
+        "Python",
+        "预测分析",
+        "SQL",
+        "实验设计",
+        "业务汇报"
+      ],
+      "status": "OFFER",
+      "source": "内部推荐",
+      "remark": "业务分析作品集很扎实，offer 包正在走内部最终审批。",
+      "confidence": 0.9,
+      "uncertainFields": [
+        "入职日期"
+      ],
+      "lastFollowUpAt": "2026-04-24T09:00:00.000Z",
+      "positionId": "pos_mock_data",
+      "createdAt": "2026-04-12T09:00:00.000Z",
+      "updatedAt": "2026-04-24T09:00:00.000Z",
+      "provider": "deepseek",
+      "inputType": "NOTE",
+      "rawContent": "分析负责人备注：offer 方案已基本对齐，等待确认入职日期。",
+      "deletedAt": null,
+      "tags": [
+        "数据",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议在 24 小时内跟进 Offer 接受情况，并确认入职意向。"
+    },
+    {
+      "id": "cand_mock_xu_ran",
+      "name": "徐冉",
+      "phone": "13600001014",
+      "email": "xuran@example.com",
+      "school": "北京航空航天大学",
+      "major": "计算机科学与技术",
+      "yearsOfExperience": 5,
+      "skills": [
+        "C++",
+        "模型优化",
+        "CUDA",
+        "推理服务",
+        "Python"
+      ],
+      "status": "FINAL_INTERVIEW",
+      "source": "BOSS直聘",
+      "remark": "算法工程系统背景很强，当前等待领导终面排期。",
+      "confidence": 0.93,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-25T04:40:00.000Z",
+      "positionId": "pos_mock_algo",
+      "createdAt": "2026-04-17T04:40:00.000Z",
+      "updatedAt": "2026-04-25T04:40:00.000Z",
+      "provider": "qwen",
+      "inputType": "CHAT",
+      "rawContent": "面试记录：候选人有生产级推理优化经验，建议推进终面。",
+      "deletedAt": null,
+      "tags": [
+        "算法",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议同步终面结果，并提前准备 offer 沟通方案。"
+    },
+    {
+      "id": "cand_mock_shen_jialin",
+      "name": "沈嘉琳",
+      "phone": "13600001015",
+      "email": "shenjl@example.com",
+      "school": "复旦大学",
+      "major": "信息系统",
+      "yearsOfExperience": 4,
+      "skills": [
+        "React",
+        "设计系统",
+        "GraphQL",
+        "性能优化",
+        "A/B 测试"
+      ],
+      "status": "FIRST_INTERVIEW",
+      "source": "Moka 导入",
+      "remark": "由其他职位转流转入，仍需补一次前端架构面试。",
+      "confidence": 0.86,
+      "uncertainFields": [
+        "当前薪资"
+      ],
+      "lastFollowUpAt": "2026-04-23T11:30:00.000Z",
+      "positionId": "pos_mock_frontend",
+      "createdAt": "2026-04-14T11:30:00.000Z",
+      "updatedAt": "2026-04-23T11:30:00.000Z",
+      "provider": "deepseek",
+      "inputType": "NOTE",
+      "rawContent": "内部流转备注：该前端候选人从其他职位转入，需继续架构向一面讨论。",
+      "deletedAt": null,
+      "tags": [
+        "前端",
+        "测试",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议今天催收一面反馈，并与候选人确认下一轮可约时间。"
+    },
+    {
+      "id": "cand_mock_mao_yiru",
+      "name": "毛依如",
+      "phone": "13600001016",
+      "email": "maoyr@example.com",
+      "school": "华东师范大学",
+      "major": "应用数学",
+      "yearsOfExperience": 3,
+      "skills": [
+        "SQL",
+        "Python",
+        "指标设计",
+        "Excel",
+        "看板搭建"
+      ],
+      "status": "WRITTEN_TEST",
+      "source": "智联招聘",
+      "remark": "分析基础不错，已发送案例作业作为笔试。",
+      "confidence": 0.84,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-24T15:10:00.000Z",
+      "positionId": "pos_mock_data",
+      "createdAt": "2026-04-16T15:10:00.000Z",
+      "updatedAt": "2026-04-24T15:10:00.000Z",
+      "provider": "qwen",
+      "inputType": "EMAIL",
+      "rawContent": "分析案例作业已发出，候选人计划在 48 小时内提交。",
+      "deletedAt": null,
+      "tags": [
+        "数据",
+        "社招"
+      ],
+      "followUpSuggestion": "建议在 24 小时内确认笔试完成时间，并约定结果回收节点。"
+    },
+    {
+      "id": "cand_mock_cao_tingting",
+      "name": "曹婷婷",
+      "phone": "13600001017",
+      "email": "caott@example.com",
+      "school": "暨南大学",
+      "major": "商业分析",
+      "yearsOfExperience": 5,
+      "skills": [
+        "提示词质检",
+        "流程 SOP",
+        "项目协同",
+        "供应商管理"
+      ],
+      "status": "SCREENING",
+      "source": "内部推荐",
+      "remark": "更像 AI 运营相邻岗位画像，当前仍在初筛判断阶段。",
+      "confidence": 0.8,
+      "uncertainFields": [
+        "目标岗位"
+      ],
+      "lastFollowUpAt": "2026-04-25T06:10:00.000Z",
+      "positionId": "pos_mock_ai_pm",
+      "createdAt": "2026-04-19T06:10:00.000Z",
+      "updatedAt": "2026-04-25T06:10:00.000Z",
+      "provider": "deepseek",
+      "inputType": "CHAT",
+      "rawContent": "内推沟通摘要：候选人可能更适合 AI 运营或 AI PM 邻近流程岗位。",
+      "deletedAt": null,
+      "tags": [
+        "产品",
+        "数据",
+        "社招"
+      ],
+      "followUpSuggestion": "建议今天完成初筛电话，确认期望薪资、到岗时间和岗位匹配度。"
+    },
+    {
+      "id": "cand_mock_ding_haoyu",
+      "name": "丁浩宇",
+      "phone": "13600001018",
+      "email": "dinghy@example.com",
+      "school": "电子科技大学",
+      "major": "软件工程",
+      "yearsOfExperience": 6,
+      "skills": [
+        "Java",
+        "Spring Cloud",
+        "Kafka",
+        "Redis",
+        "接口设计"
+      ],
+      "status": "SECOND_INTERVIEW",
+      "source": "BOSS直聘",
+      "remark": "二面编码面已排期，候选人希望尽快拿到反馈结果。",
+      "confidence": 0.91,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-25T08:05:00.000Z",
+      "positionId": "pos_mock_backend",
+      "createdAt": "2026-04-18T08:05:00.000Z",
+      "updatedAt": "2026-04-25T08:05:00.000Z",
+      "provider": "qwen",
+      "inputType": "RESUME",
+      "rawContent": "后端简历评审：已通过一面，进入二面编码环节。",
+      "deletedAt": null,
+      "tags": [
+        "后端",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议尽快确认二面反馈，并锁定终面可约时间。"
+    },
+    {
+      "id": "cand_mock_ren_yiming",
+      "name": "任一鸣",
+      "phone": "13600001019",
+      "email": "renym@example.com",
+      "school": "西安交通大学",
+      "major": "计算机科学与技术",
+      "yearsOfExperience": 1,
+      "skills": [
+        "Python",
+        "NLP",
+        "提示词调优",
+        "数据标注",
+        "模型评测"
+      ],
+      "status": "NEW",
+      "source": "校园招聘",
+      "remark": "应届毕业生，做过 NLP 实习，适合初级算法工程师方向。",
+      "confidence": 0.76,
+      "uncertainFields": [
+        "全职到岗时间"
+      ],
+      "lastFollowUpAt": "2026-04-26T02:50:00.000Z",
+      "positionId": "pos_mock_algo",
+      "createdAt": "2026-04-26T02:50:00.000Z",
+      "updatedAt": "2026-04-26T02:50:00.000Z",
+      "provider": "deepseek",
+      "inputType": "RESUME",
+      "rawContent": "校招简历：初级算法工程师方向，待论文答辩后可全职入职。",
+      "deletedAt": null,
+      "tags": [
+        "算法",
+        "数据",
+        "校招"
+      ],
+      "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。"
+    },
+    {
+      "id": "cand_mock_luo_anqi",
+      "name": "罗安琪",
+      "phone": "13600001020",
+      "email": "luoaq@example.com",
+      "school": "天津大学",
+      "major": "软件工程",
+      "yearsOfExperience": 3,
+      "skills": [
+        "React",
+        "Testing Library",
+        "Tailwind",
+        "设计质检",
+        "指标分析"
+      ],
+      "status": "ONBOARD",
+      "source": "内部推荐",
+      "remark": "下周一入职，设备申请已经提交。",
+      "confidence": 0.93,
+      "uncertainFields": [],
+      "lastFollowUpAt": "2026-04-24T03:30:00.000Z",
+      "positionId": "pos_mock_frontend",
+      "createdAt": "2026-04-13T03:30:00.000Z",
+      "updatedAt": "2026-04-24T03:30:00.000Z",
+      "provider": "qwen",
+      "inputType": "EMAIL",
+      "rawContent": "入职确认邮件：候选人将于下周一入职，设备准备流程已启动。",
+      "deletedAt": null,
+      "tags": [
+        "前端",
+        "数据",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议确认入职材料、报到时间和对接人信息。"
+    },
+    {
+      "id": "cand_ef9e15f2",
+      "name": "何云溪",
+      "phone": "13711116634",
+      "email": "heyx111@example.com",
+      "school": "上海交通大学",
+      "major": "人工智能",
+      "yearsOfExperience": 2,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "LLM",
+        "RAG",
+        "向量检索",
+        "评测集构建",
+        "Prompt Engineering"
+      ],
+      "status": "SCREENING",
+      "source": "上传文件",
+      "remark": "面试反馈备注，基于脱敏PDF简历提取；候选人应聘算法工程师/大模型应用工程师岗位。",
+      "confidence": 0.95,
+      "uncertainFields": [],
+      "tags": [
+        "算法",
+        "大模型",
+        "社招",
+        "高潜"
+      ],
+      "followUpSuggestion": "建议安排技术面，重点考察RAG系统设计与Prompt工程实战经验。",
+      "lastFollowUpAt": "2026-04-27T05:40:30.676Z",
+      "deletedAt": null,
+      "positionId": "pos_93220590",
+      "createdAt": "2026-04-27T05:40:30.676Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "cand_7aff3a71",
+      "name": "周欣",
+      "phone": "13811114521",
+      "email": "zhouxin111@example.com",
+      "school": "华东师范大学",
+      "major": "软件工程",
+      "yearsOfExperience": 4,
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "ECharts",
+        "复杂表单交互",
+        "可视化设计"
+      ],
+      "status": "NEW",
+      "source": "上传文件",
+      "remark": "前端开发工程师简历，4年经验，当前在职，使用React/Next.js技术栈。",
+      "confidence": 0.95,
+      "uncertainFields": [],
+      "tags": [
+        "前端",
+        "社招"
+      ],
+      "followUpSuggestion": "建议安排技术初面，重点考察React与Next.js实战能力及性能优化经验。",
+      "lastFollowUpAt": "2026-04-27T05:51:46.729Z",
+      "deletedAt": null,
+      "positionId": "pos_c88bd0f5",
+      "createdAt": "2026-04-27T05:51:46.729Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_mock_lin_yucheng",
+      "candidateId": "cand_mock_lin_yucheng",
+      "fromStatus": null,
+      "toStatus": "FINAL_INTERVIEW",
+      "note": "产品理解和前端架构能力都很强，正在安排终面时间。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-12T09:30:00.000Z"
+    },
+    {
+      "id": "log_mock_zhao_wenjing",
+      "candidateId": "cand_mock_zhao_wenjing",
+      "fromStatus": null,
+      "toStatus": "SCREENING",
+      "note": "由业务负责人内推，当前还在等待 HR 完成初筛电话。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-18T08:40:00.000Z"
+    },
+    {
+      "id": "log_mock_he_junkai",
+      "candidateId": "cand_mock_he_junkai",
+      "fromStatus": null,
+      "toStatus": "WRITTEN_TEST",
+      "note": "笔试已发出，候选人表示今晚会完成并回传。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-15T14:20:00.000Z"
+    },
+    {
+      "id": "log_mock_su_qinghe",
+      "candidateId": "cand_mock_su_qinghe",
+      "fromStatus": null,
+      "toStatus": "OFFER",
+      "note": "Offer 已发出，候选人将在周一上午前给最终回复。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-14T11:10:00.000Z"
+    },
+    {
+      "id": "log_mock_tang_jianing",
+      "candidateId": "cand_mock_tang_jianing",
+      "fromStatus": null,
+      "toStatus": "ONBOARD",
+      "note": "候选人已接受 offer，入职材料还差一项待补齐。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-10T06:50:00.000Z"
+    },
+    {
+      "id": "log_mock_gu_yuanzhou",
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "fromStatus": null,
+      "toStatus": "NEW",
+      "note": "扫描版简历，AI 抽取置信度一般，需要人工复核关键信息。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-26T03:15:00.000Z"
+    },
+    {
+      "id": "log_mock_chen_xiaobei",
+      "candidateId": "cand_mock_chen_xiaobei",
+      "fromStatus": null,
+      "toStatus": "FIRST_INTERVIEW",
+      "note": "后端基础扎实，一面已结束，反馈较为积极。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-13T05:00:00.000Z"
+    },
+    {
+      "id": "log_mock_liu_shiyi",
+      "candidateId": "cand_mock_liu_shiyi",
+      "fromStatus": null,
+      "toStatus": "SECOND_INTERVIEW",
+      "note": "业务沟通能力很强，准备进入分析负责人二面。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-16T12:10:00.000Z"
+    },
+    {
+      "id": "log_mock_qin_meng",
+      "candidateId": "cand_mock_qin_meng",
+      "fromStatus": null,
+      "toStatus": "REJECTED",
+      "note": "背景有亮点，但与当前岗位所需的 AI 流程经验仍有明显差距。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-11T07:20:00.000Z"
+    },
+    {
+      "id": "log_mock_yu_haonan",
+      "candidateId": "cand_mock_yu_haonan",
+      "fromStatus": null,
+      "toStatus": "WITHDRAWN",
+      "note": "候选人因拿到更高优先级的外部 offer，主动撤回流程。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-08T13:50:00.000Z"
+    },
+    {
+      "id": "log_mock_wen_jiakai",
+      "candidateId": "cand_mock_wen_jiakai",
+      "fromStatus": null,
+      "toStatus": "SCREENING",
+      "note": "偏校招到初级岗画像，需确认测试深度与实习到岗时间。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-22T01:45:00.000Z"
+    },
+    {
+      "id": "log_mock_fang_xinyi",
+      "candidateId": "cand_mock_fang_xinyi",
+      "fromStatus": null,
+      "toStatus": "NEW",
+      "note": "从内容运营转向 AI 产品运营，转型画像较有潜力。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-26T06:20:00.000Z"
+    },
+    {
+      "id": "log_mock_pang_zihao",
+      "candidateId": "cand_mock_pang_zihao",
+      "fromStatus": null,
+      "toStatus": "OFFER",
+      "note": "业务分析作品集很扎实，offer 包正在走内部最终审批。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-12T09:00:00.000Z"
+    },
+    {
+      "id": "log_mock_xu_ran",
+      "candidateId": "cand_mock_xu_ran",
+      "fromStatus": null,
+      "toStatus": "FINAL_INTERVIEW",
+      "note": "算法工程系统背景很强，当前等待领导终面排期。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-17T04:40:00.000Z"
+    },
+    {
+      "id": "log_mock_shen_jialin",
+      "candidateId": "cand_mock_shen_jialin",
+      "fromStatus": null,
+      "toStatus": "FIRST_INTERVIEW",
+      "note": "由其他职位转流转入，仍需补一次前端架构面试。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-14T11:30:00.000Z"
+    },
+    {
+      "id": "log_mock_mao_yiru",
+      "candidateId": "cand_mock_mao_yiru",
+      "fromStatus": null,
+      "toStatus": "WRITTEN_TEST",
+      "note": "分析基础不错，已发送案例作业作为笔试。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-16T15:10:00.000Z"
+    },
+    {
+      "id": "log_mock_cao_tingting",
+      "candidateId": "cand_mock_cao_tingting",
+      "fromStatus": null,
+      "toStatus": "SCREENING",
+      "note": "更像 AI 运营相邻岗位画像，当前仍在初筛判断阶段。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-19T06:10:00.000Z"
+    },
+    {
+      "id": "log_mock_ding_haoyu",
+      "candidateId": "cand_mock_ding_haoyu",
+      "fromStatus": null,
+      "toStatus": "SECOND_INTERVIEW",
+      "note": "二面编码面已排期，候选人希望尽快拿到反馈结果。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-18T08:05:00.000Z"
+    },
+    {
+      "id": "log_mock_ren_yiming",
+      "candidateId": "cand_mock_ren_yiming",
+      "fromStatus": null,
+      "toStatus": "NEW",
+      "note": "应届毕业生，做过 NLP 实习，适合初级算法工程师方向。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-26T02:50:00.000Z"
+    },
+    {
+      "id": "log_mock_luo_anqi",
+      "candidateId": "cand_mock_luo_anqi",
+      "fromStatus": null,
+      "toStatus": "ONBOARD",
+      "note": "下周一入职，设备申请已经提交。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-13T03:30:00.000Z"
+    },
+    {
+      "id": "log_mock_lin_1",
+      "candidateId": "cand_mock_lin_yucheng",
+      "fromStatus": null,
+      "toStatus": "FINAL_INTERVIEW",
+      "note": "候选人由业务负责人直推进入终面排期。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-12T09:30:00.000Z"
+    },
+    {
+      "id": "log_mock_zhao_1",
+      "candidateId": "cand_mock_zhao_wenjing",
+      "fromStatus": null,
+      "toStatus": "SCREENING",
+      "note": "内推简历已入库，等待 HR 初筛。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-18T08:40:00.000Z"
+    },
+    {
+      "id": "log_mock_he_1",
+      "candidateId": "cand_mock_he_junkai",
+      "fromStatus": null,
+      "toStatus": "WRITTEN_TEST",
+      "note": "候选人已通过简历初筛，进入笔试阶段。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-15T14:20:00.000Z"
+    },
+    {
+      "id": "log_mock_su_1",
+      "candidateId": "cand_mock_su_qinghe",
+      "fromStatus": null,
+      "toStatus": "OFFER",
+      "note": "业务面通过，已发送 offer 邮件。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-14T11:10:00.000Z"
+    },
+    {
+      "id": "log_mock_tang_1",
+      "candidateId": "cand_mock_tang_jianing",
+      "fromStatus": null,
+      "toStatus": "ONBOARD",
+      "note": "候选人确认入职，等待材料补充。",
+      "source": "seed",
+      "createdBy": "system",
+      "createdAt": "2026-04-10T06:50:00.000Z"
+    },
+    {
+      "id": "log_mock_gu_1",
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "fromStatus": null,
+      "toStatus": "NEW",
+      "note": "AI Intake 新增候选人，待人工确认解析结果。",
+      "source": "agent",
+      "createdBy": "system",
+      "createdAt": "2026-04-26T03:15:00.000Z"
+    },
+    {
+      "id": "log_119e2865",
+      "candidateId": "cand_ef9e15f2",
+      "fromStatus": null,
+      "toStatus": "SCREENING",
+      "note": "候选人通过 Agent Intake 创建。",
+      "source": "agent",
+      "createdBy": "system",
+      "createdAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "log_55284939",
+      "candidateId": "cand_7aff3a71",
+      "fromStatus": null,
+      "toStatus": "NEW",
+      "note": "候选人通过 Agent Intake 创建。",
+      "source": "agent",
+      "createdBy": "system",
+      "createdAt": "2026-04-27T05:51:46.729Z"
+    }
+  ],
+  "rawInputs": [
+    {
+      "id": "raw_mock_lin_yucheng",
+      "candidateId": "cand_mock_lin_yucheng",
+      "inputType": "RESUME",
+      "content": "简历录入：林语澄，前端工程师，5 年经验，长期负责数据看板和内部平台项目。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_lin_yucheng",
+          "name": "林语澄",
+          "phone": "13600001001",
+          "email": "lin.yucheng@example.com",
+          "school": "华南理工大学",
+          "major": "软件工程",
+          "yearsOfExperience": 5,
+          "skills": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Node.js",
+            "ECharts"
+          ],
+          "status": "FINAL_INTERVIEW",
+          "source": "BOSS直聘",
+          "remark": "产品理解和前端架构能力都很强，正在安排终面时间。",
+          "confidence": 0.94,
+          "uncertainFields": [],
+          "positionTitle": "前端工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "前端",
+            "后端",
+            "产品",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议同步终面结果，并提前准备 offer 沟通方案。"
+        }
+      },
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_zhao_wenjing",
+      "candidateId": "cand_mock_zhao_wenjing",
+      "inputType": "NOTE",
+      "content": "内推备注：AI 产品经理方向，流程设计和用户研究背景扎实，建议尽快安排初筛。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_zhao_wenjing",
+          "name": "赵文静",
+          "phone": "13600001002",
+          "email": "zhaowj@example.com",
+          "school": "武汉大学",
+          "major": "信息管理",
+          "yearsOfExperience": 6,
+          "skills": [
+            "需求分析",
+            "用户研究",
+            "流程设计",
+            "提示词设计",
+            "SQL"
+          ],
+          "status": "SCREENING",
+          "source": "内部推荐",
+          "remark": "由业务负责人内推，当前还在等待 HR 完成初筛电话。",
+          "confidence": 0.87,
+          "uncertainFields": [
+            "期望薪资"
+          ],
+          "positionTitle": "AI 产品经理",
+          "inputType": "NOTE",
+          "inputScene": "NOTE",
+          "tags": [
+            "产品",
+            "数据",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认期望薪资、到岗时间和岗位匹配度。"
+        }
+      },
+      "createdAt": "2026-04-18T08:40:00.000Z",
+      "inputScene": "NOTE"
+    },
+    {
+      "id": "raw_mock_he_junkai",
+      "candidateId": "cand_mock_he_junkai",
+      "inputType": "EMAIL",
+      "content": "邮件记录：测试开发候选人已收到笔试并承诺今晚提交结果。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_he_junkai",
+          "name": "何俊凯",
+          "phone": "13600001003",
+          "email": "hejunkai@example.com",
+          "school": "哈尔滨工业大学",
+          "major": "计算机科学与技术",
+          "yearsOfExperience": 4,
+          "skills": [
+            "Playwright",
+            "Python",
+            "CI/CD",
+            "接口测试",
+            "质量平台"
+          ],
+          "status": "WRITTEN_TEST",
+          "source": "拉勾",
+          "remark": "笔试已发出，候选人表示今晚会完成并回传。",
+          "confidence": 0.9,
+          "uncertainFields": [],
+          "positionTitle": "测试开发工程师",
+          "inputType": "EMAIL",
+          "inputScene": "EMAIL",
+          "tags": [
+            "测试",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议在 24 小时内确认笔试完成时间，并约定结果回收节点。"
+        }
+      },
+      "createdAt": "2026-04-15T14:20:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_su_qinghe",
+      "candidateId": "cand_mock_su_qinghe",
+      "inputType": "EMAIL",
+      "content": "Offer 邮件已发送，候选人会在周一上午十点前确认最终决定。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_su_qinghe",
+          "name": "苏清和",
+          "phone": "13600001004",
+          "email": "suqinghe@example.com",
+          "school": "中山大学",
+          "major": "统计学",
+          "yearsOfExperience": 5,
+          "skills": [
+            "SQL",
+            "Python",
+            "Tableau",
+            "Looker Studio",
+            "A/B 测试"
+          ],
+          "status": "OFFER",
+          "source": "智联招聘",
+          "remark": "Offer 已发出，候选人将在周一上午前给最终回复。",
+          "confidence": 0.92,
+          "uncertainFields": [],
+          "positionTitle": "数据分析师",
+          "inputType": "EMAIL",
+          "inputScene": "EMAIL",
+          "tags": [
+            "测试",
+            "数据",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议在 24 小时内跟进 Offer 接受情况，并确认入职意向。"
+        }
+      },
+      "createdAt": "2026-04-14T11:10:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_tang_jianing",
+      "candidateId": "cand_mock_tang_jianing",
+      "inputType": "RESUME",
+      "content": "校招简历：唐嘉宁，前端工程师方向，已接受 offer，正在准备入职。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_tang_jianing",
+          "name": "唐嘉宁",
+          "phone": "13600001005",
+          "email": "tangjn@example.com",
+          "school": "北京邮电大学",
+          "major": "数字媒体技术",
+          "yearsOfExperience": 3,
+          "skills": [
+            "Vue",
+            "React",
+            "Figma",
+            "设计系统",
+            "可访问性"
+          ],
+          "status": "ONBOARD",
+          "source": "校园招聘",
+          "remark": "候选人已接受 offer，入职材料还差一项待补齐。",
+          "confidence": 0.95,
+          "uncertainFields": [],
+          "positionTitle": "前端工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "前端",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议确认入职材料、报到时间和对接人信息。"
+        }
+      },
+      "createdAt": "2026-04-10T06:50:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_gu_yuanzhou",
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "inputType": "RESUME",
+      "content": "上传的扫描简历提到 RAG、向量检索和模型评测方向，部分字段仍待确认。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_gu_yuanzhou",
+          "name": "顾远舟",
+          "phone": "13600001006",
+          "email": "guyz@example.com",
+          "school": "上海交通大学",
+          "major": "人工智能",
+          "yearsOfExperience": 2,
+          "skills": [
+            "PyTorch",
+            "LLM",
+            "RAG",
+            "向量检索",
+            "Python"
+          ],
+          "status": "NEW",
+          "source": "上传文件",
+          "remark": "扫描版简历，AI 抽取置信度一般，需要人工复核关键信息。",
+          "confidence": 0.71,
+          "uncertainFields": [
+            "工作年限",
+            "论文情况"
+          ],
+          "positionTitle": "算法工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "算法",
+            "社招",
+            "需复核"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。 同时确认工作年限。"
+        }
+      },
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_chen_xiaobei",
+      "candidateId": "cand_mock_chen_xiaobei",
+      "inputType": "CHAT",
+      "content": "聊天记录摘要：具备微服务经验的后端候选人已通过一面。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_chen_xiaobei",
+          "name": "陈晓北",
+          "phone": "13600001007",
+          "email": "chenxb@example.com",
+          "school": "同济大学",
+          "major": "软件工程",
+          "yearsOfExperience": 4,
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "MySQL",
+            "Redis",
+            "微服务"
+          ],
+          "status": "FIRST_INTERVIEW",
+          "source": "BOSS直聘",
+          "remark": "后端基础扎实，一面已结束，反馈较为积极。",
+          "confidence": 0.91,
+          "uncertainFields": [],
+          "positionTitle": "后端工程师",
+          "inputType": "CHAT",
+          "inputScene": "CHAT",
+          "tags": [
+            "后端",
+            "数据",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议今天催收一面反馈，并与候选人确认下一轮可约时间。"
+        }
+      },
+      "createdAt": "2026-04-13T05:00:00.000Z",
+      "inputScene": "CHAT"
+    },
+    {
+      "id": "raw_mock_liu_shiyi",
+      "candidateId": "cand_mock_liu_shiyi",
+      "inputType": "NOTE",
+      "content": "招聘备注：沟通表达和分析思维都很好，建议推进至二面。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_liu_shiyi",
+          "name": "刘诗怡",
+          "phone": "13600001008",
+          "email": "liusy@example.com",
+          "school": "南京大学",
+          "major": "数据科学",
+          "yearsOfExperience": 4,
+          "skills": [
+            "Python",
+            "dbt",
+            "Airflow",
+            "数据建模",
+            "Power BI"
+          ],
+          "status": "SECOND_INTERVIEW",
+          "source": "内部推荐",
+          "remark": "业务沟通能力很强，准备进入分析负责人二面。",
+          "confidence": 0.89,
+          "uncertainFields": [],
+          "positionTitle": "数据分析师",
+          "inputType": "NOTE",
+          "inputScene": "NOTE",
+          "tags": [
+            "数据",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议尽快确认二面反馈，并锁定终面可约时间。"
+        }
+      },
+      "createdAt": "2026-04-16T12:10:00.000Z",
+      "inputScene": "NOTE"
+    },
+    {
+      "id": "raw_mock_qin_meng",
+      "candidateId": "cand_mock_qin_meng",
+      "inputType": "RESUME",
+      "content": "AI 产品岗位简历评审记录：候选人因经验匹配度不足而未继续推进。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_qin_meng",
+          "name": "秦萌",
+          "phone": "13600001009",
+          "email": "qinmeng@example.com",
+          "school": "厦门大学",
+          "major": "人机交互",
+          "yearsOfExperience": 3,
+          "skills": [
+            "交互设计",
+            "Figma",
+            "研究运营",
+            "旅程地图",
+            "设计评审"
+          ],
+          "status": "REJECTED",
+          "source": "Maimai",
+          "remark": "背景有亮点，但与当前岗位所需的 AI 流程经验仍有明显差距。",
+          "confidence": 0.82,
+          "uncertainFields": [],
+          "positionTitle": "AI 产品经理",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "产品",
+            "社招"
+          ],
+          "followUpSuggestion": "建议补齐淘汰原因和沟通记录，便于后续复盘。"
+        }
+      },
+      "createdAt": "2026-04-11T07:20:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_yu_haonan",
+      "candidateId": "cand_mock_yu_haonan",
+      "inputType": "EMAIL",
+      "content": "邮件更新：后端候选人因已接受其他 offer，终止当前流程。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_yu_haonan",
+          "name": "余皓南",
+          "phone": "13600001010",
+          "email": "yuhaonan@example.com",
+          "school": "浙江大学",
+          "major": "计算机工程",
+          "yearsOfExperience": 7,
+          "skills": [
+            "Go",
+            "Kubernetes",
+            "Kafka",
+            "可观测性",
+            "分布式系统"
+          ],
+          "status": "WITHDRAWN",
+          "source": "BOSS直聘",
+          "remark": "候选人因拿到更高优先级的外部 offer，主动撤回流程。",
+          "confidence": 0.93,
+          "uncertainFields": [],
+          "positionTitle": "后端工程师",
+          "inputType": "EMAIL",
+          "inputScene": "EMAIL",
+          "tags": [
+            "后端",
+            "产品",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议记录放弃原因，并确认是否保留后续岗位机会。"
+        }
+      },
+      "createdAt": "2026-04-08T13:50:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_wen_jiakai",
+      "candidateId": "cand_mock_wen_jiakai",
+      "inputType": "RESUME",
+      "content": "校招简历：测试开发候选人有实习测试经验，毕业时间仍需确认。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_wen_jiakai",
+          "name": "温嘉凯",
+          "phone": "13600001011",
+          "email": "wenjk@example.com",
+          "school": "华中科技大学",
+          "major": "自动化",
+          "yearsOfExperience": 2,
+          "skills": [
+            "Selenium",
+            "Python",
+            "Robot Framework",
+            "Postman",
+            "JMeter"
+          ],
+          "status": "SCREENING",
+          "source": "校园招聘",
+          "remark": "偏校招到初级岗画像，需确认测试深度与实习到岗时间。",
+          "confidence": 0.78,
+          "uncertainFields": [
+            "毕业时间"
+          ],
+          "positionTitle": "测试开发工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "测试",
+            "校招"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认期望薪资、到岗时间和岗位匹配度。"
+        }
+      },
+      "createdAt": "2026-04-22T01:45:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_fang_xinyi",
+      "candidateId": "cand_mock_fang_xinyi",
+      "inputType": "RESUME",
+      "content": "上传简历：具备提示词编写和流程文档能力的复合型运营背景。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_fang_xinyi",
+          "name": "方欣怡",
+          "phone": "13600001012",
+          "email": "fangxy@example.com",
+          "school": "四川大学",
+          "major": "新闻传播学",
+          "yearsOfExperience": 4,
+          "skills": [
+            "内容策略",
+            "提示词编写",
+            "流程文档",
+            "跨团队协作"
+          ],
+          "status": "NEW",
+          "source": "上传文件",
+          "remark": "从内容运营转向 AI 产品运营，转型画像较有潜力。",
+          "confidence": 0.74,
+          "uncertainFields": [
+            "当前岗位"
+          ],
+          "positionTitle": "AI 产品经理",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "产品",
+            "社招"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。"
+        }
+      },
+      "createdAt": "2026-04-26T06:20:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_pang_zihao",
+      "candidateId": "cand_mock_pang_zihao",
+      "inputType": "NOTE",
+      "content": "分析负责人备注：offer 方案已基本对齐，等待确认入职日期。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_pang_zihao",
+          "name": "庞子昊",
+          "phone": "13600001013",
+          "email": "pangzh@example.com",
+          "school": "东北大学",
+          "major": "统计学",
+          "yearsOfExperience": 6,
+          "skills": [
+            "Python",
+            "预测分析",
+            "SQL",
+            "实验设计",
+            "业务汇报"
+          ],
+          "status": "OFFER",
+          "source": "内部推荐",
+          "remark": "业务分析作品集很扎实，offer 包正在走内部最终审批。",
+          "confidence": 0.9,
+          "uncertainFields": [
+            "入职日期"
+          ],
+          "positionTitle": "数据分析师",
+          "inputType": "NOTE",
+          "inputScene": "NOTE",
+          "tags": [
+            "数据",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议在 24 小时内跟进 Offer 接受情况，并确认入职意向。"
+        }
+      },
+      "createdAt": "2026-04-12T09:00:00.000Z",
+      "inputScene": "NOTE"
+    },
+    {
+      "id": "raw_mock_xu_ran",
+      "candidateId": "cand_mock_xu_ran",
+      "inputType": "CHAT",
+      "content": "面试记录：候选人有生产级推理优化经验，建议推进终面。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_xu_ran",
+          "name": "徐冉",
+          "phone": "13600001014",
+          "email": "xuran@example.com",
+          "school": "北京航空航天大学",
+          "major": "计算机科学与技术",
+          "yearsOfExperience": 5,
+          "skills": [
+            "C++",
+            "模型优化",
+            "CUDA",
+            "推理服务",
+            "Python"
+          ],
+          "status": "FINAL_INTERVIEW",
+          "source": "BOSS直聘",
+          "remark": "算法工程系统背景很强，当前等待领导终面排期。",
+          "confidence": 0.93,
+          "uncertainFields": [],
+          "positionTitle": "算法工程师",
+          "inputType": "CHAT",
+          "inputScene": "CHAT",
+          "tags": [
+            "算法",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议同步终面结果，并提前准备 offer 沟通方案。"
+        }
+      },
+      "createdAt": "2026-04-17T04:40:00.000Z",
+      "inputScene": "CHAT"
+    },
+    {
+      "id": "raw_mock_shen_jialin",
+      "candidateId": "cand_mock_shen_jialin",
+      "inputType": "NOTE",
+      "content": "内部流转备注：该前端候选人从其他职位转入，需继续架构向一面讨论。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_shen_jialin",
+          "name": "沈嘉琳",
+          "phone": "13600001015",
+          "email": "shenjl@example.com",
+          "school": "复旦大学",
+          "major": "信息系统",
+          "yearsOfExperience": 4,
+          "skills": [
+            "React",
+            "设计系统",
+            "GraphQL",
+            "性能优化",
+            "A/B 测试"
+          ],
+          "status": "FIRST_INTERVIEW",
+          "source": "Moka 导入",
+          "remark": "由其他职位转流转入，仍需补一次前端架构面试。",
+          "confidence": 0.86,
+          "uncertainFields": [
+            "当前薪资"
+          ],
+          "positionTitle": "前端工程师",
+          "inputType": "NOTE",
+          "inputScene": "NOTE",
+          "tags": [
+            "前端",
+            "测试",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议今天催收一面反馈，并与候选人确认下一轮可约时间。"
+        }
+      },
+      "createdAt": "2026-04-14T11:30:00.000Z",
+      "inputScene": "NOTE"
+    },
+    {
+      "id": "raw_mock_mao_yiru",
+      "candidateId": "cand_mock_mao_yiru",
+      "inputType": "EMAIL",
+      "content": "分析案例作业已发出，候选人计划在 48 小时内提交。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_mao_yiru",
+          "name": "毛依如",
+          "phone": "13600001016",
+          "email": "maoyr@example.com",
+          "school": "华东师范大学",
+          "major": "应用数学",
+          "yearsOfExperience": 3,
+          "skills": [
+            "SQL",
+            "Python",
+            "指标设计",
+            "Excel",
+            "看板搭建"
+          ],
+          "status": "WRITTEN_TEST",
+          "source": "智联招聘",
+          "remark": "分析基础不错，已发送案例作业作为笔试。",
+          "confidence": 0.84,
+          "uncertainFields": [],
+          "positionTitle": "数据分析师",
+          "inputType": "EMAIL",
+          "inputScene": "EMAIL",
+          "tags": [
+            "数据",
+            "社招"
+          ],
+          "followUpSuggestion": "建议在 24 小时内确认笔试完成时间，并约定结果回收节点。"
+        }
+      },
+      "createdAt": "2026-04-16T15:10:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_cao_tingting",
+      "candidateId": "cand_mock_cao_tingting",
+      "inputType": "CHAT",
+      "content": "内推沟通摘要：候选人可能更适合 AI 运营或 AI PM 邻近流程岗位。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_cao_tingting",
+          "name": "曹婷婷",
+          "phone": "13600001017",
+          "email": "caott@example.com",
+          "school": "暨南大学",
+          "major": "商业分析",
+          "yearsOfExperience": 5,
+          "skills": [
+            "提示词质检",
+            "流程 SOP",
+            "项目协同",
+            "供应商管理"
+          ],
+          "status": "SCREENING",
+          "source": "内部推荐",
+          "remark": "更像 AI 运营相邻岗位画像，当前仍在初筛判断阶段。",
+          "confidence": 0.8,
+          "uncertainFields": [
+            "目标岗位"
+          ],
+          "positionTitle": "AI 产品经理",
+          "inputType": "CHAT",
+          "inputScene": "CHAT",
+          "tags": [
+            "产品",
+            "数据",
+            "社招"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认期望薪资、到岗时间和岗位匹配度。"
+        }
+      },
+      "createdAt": "2026-04-19T06:10:00.000Z",
+      "inputScene": "CHAT"
+    },
+    {
+      "id": "raw_mock_ding_haoyu",
+      "candidateId": "cand_mock_ding_haoyu",
+      "inputType": "RESUME",
+      "content": "后端简历评审：已通过一面，进入二面编码环节。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_ding_haoyu",
+          "name": "丁浩宇",
+          "phone": "13600001018",
+          "email": "dinghy@example.com",
+          "school": "电子科技大学",
+          "major": "软件工程",
+          "yearsOfExperience": 6,
+          "skills": [
+            "Java",
+            "Spring Cloud",
+            "Kafka",
+            "Redis",
+            "接口设计"
+          ],
+          "status": "SECOND_INTERVIEW",
+          "source": "BOSS直聘",
+          "remark": "二面编码面已排期，候选人希望尽快拿到反馈结果。",
+          "confidence": 0.91,
+          "uncertainFields": [],
+          "positionTitle": "后端工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "后端",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议尽快确认二面反馈，并锁定终面可约时间。"
+        }
+      },
+      "createdAt": "2026-04-18T08:05:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_ren_yiming",
+      "candidateId": "cand_mock_ren_yiming",
+      "inputType": "RESUME",
+      "content": "校招简历：初级算法工程师方向，待论文答辩后可全职入职。",
+      "parsedResult": {
+        "provider": "deepseek",
+        "result": {
+          "candidateId": "cand_mock_ren_yiming",
+          "name": "任一鸣",
+          "phone": "13600001019",
+          "email": "renym@example.com",
+          "school": "西安交通大学",
+          "major": "计算机科学与技术",
+          "yearsOfExperience": 1,
+          "skills": [
+            "Python",
+            "NLP",
+            "提示词调优",
+            "数据标注",
+            "模型评测"
+          ],
+          "status": "NEW",
+          "source": "校园招聘",
+          "remark": "应届毕业生，做过 NLP 实习，适合初级算法工程师方向。",
+          "confidence": 0.76,
+          "uncertainFields": [
+            "全职到岗时间"
+          ],
+          "positionTitle": "算法工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "算法",
+            "数据",
+            "校招"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。"
+        }
+      },
+      "createdAt": "2026-04-26T02:50:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_luo_anqi",
+      "candidateId": "cand_mock_luo_anqi",
+      "inputType": "EMAIL",
+      "content": "入职确认邮件：候选人将于下周一入职，设备准备流程已启动。",
+      "parsedResult": {
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_luo_anqi",
+          "name": "罗安琪",
+          "phone": "13600001020",
+          "email": "luoaq@example.com",
+          "school": "天津大学",
+          "major": "软件工程",
+          "yearsOfExperience": 3,
+          "skills": [
+            "React",
+            "Testing Library",
+            "Tailwind",
+            "设计质检",
+            "指标分析"
+          ],
+          "status": "ONBOARD",
+          "source": "内部推荐",
+          "remark": "下周一入职，设备申请已经提交。",
+          "confidence": 0.93,
+          "uncertainFields": [],
+          "positionTitle": "前端工程师",
+          "inputType": "EMAIL",
+          "inputScene": "EMAIL",
+          "tags": [
+            "前端",
+            "数据",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议确认入职材料、报到时间和对接人信息。"
+        }
+      },
+      "createdAt": "2026-04-13T03:30:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_lin_resume",
+      "candidateId": "cand_mock_lin_yucheng",
+      "inputType": "RESUME",
+      "content": "姓名：林语澄\n电话：13600001001\n邮箱：lin.yucheng@example.com\n学校：华南理工大学\n岗位：前端工程师\n技能：React / Next.js / TypeScript / ECharts",
+      "parsedResult": {
+        "source": "seed",
+        "provider": "qwen"
+      },
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_mock_zhao_referral",
+      "candidateId": "cand_mock_zhao_wenjing",
+      "inputType": "NOTE",
+      "content": "内推备注：赵文静，AI 产品经理方向，流程设计和用户研究经验强，建议尽快初筛。",
+      "parsedResult": {
+        "source": "seed",
+        "provider": "deepseek"
+      },
+      "createdAt": "2026-04-18T08:40:00.000Z",
+      "inputScene": "NOTE"
+    },
+    {
+      "id": "raw_mock_he_email",
+      "candidateId": "cand_mock_he_junkai",
+      "inputType": "EMAIL",
+      "content": "笔试邮件已发出，候选人确认今晚完成并回传结果。",
+      "parsedResult": {
+        "source": "seed",
+        "provider": "qwen"
+      },
+      "createdAt": "2026-04-23T14:20:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_su_offer",
+      "candidateId": "cand_mock_su_qinghe",
+      "inputType": "EMAIL",
+      "content": "Offer 邮件已发送，候选人表示会在周一前确认。",
+      "parsedResult": {
+        "source": "seed",
+        "provider": "deepseek"
+      },
+      "createdAt": "2026-04-25T02:10:00.000Z",
+      "inputScene": "EMAIL"
+    },
+    {
+      "id": "raw_mock_gu_resume",
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "inputType": "RESUME",
+      "content": "顾远舟，算法工程师方向。项目涉及 RAG、向量检索、LLM 评测，简历为扫描件，部分字段待确认。",
+      "parsedResult": {
+        "source": "seed",
+        "provider": "qwen",
+        "result": {
+          "candidateId": "cand_mock_gu_yuanzhou",
+          "inputScene": "RESUME",
+          "tags": [
+            "算法",
+            "社招",
+            "需复核"
+          ],
+          "followUpSuggestion": "建议今天完成初筛电话，确认求职动机、到岗时间和期望薪资。 同时确认工作年限。",
+          "inputType": "RESUME"
+        }
+      },
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "inputScene": "RESUME"
+    },
+    {
+      "id": "raw_9ab45f34",
+      "candidateId": "cand_ef9e15f2",
+      "inputType": "NOTE",
+      "inputScene": "NOTE",
+      "content": "何云溪\n女 | 2年经验 | 硕士 | 手机：137****6634 | 邮箱：heyx***@example.com\n脱敏测试简历\n求 职 意 向\n目标岗位：算法工程师 / 大模型应用工程师\n教 育 背 景\n上海交通大学 人工智能 硕士 2020.09 - 2023.03\n工 作 经 历\n上海某 AI 创业公司 算法工程师 2023.04 - 至今\n负责简历理解、候选人标签补全和匹配排序模型研发，参与 Prompt 设计与效果评估。\n基于 RAG 与向量检索搭建招聘知识库问答能力，提升结构化抽取稳定性。\n建设离线评测集和线上质量回溯机制，支持 DeepSeek / Qwen 双模型效果对比。\n项 目 经 历\n智能简历解析与候选人标签系统\n输出候选人方向标签、校招/社招判断、高潜/需复核提示和下一步跟进建议。\n将原始输入进一步分类为简历、邮件、聊天记录、面试反馈和其他备注。\n技 能 优 势\nPython \tPyTorch \tLLM \tRAG \t向量检索 \t评测集构建 \tPrompt Engineering\n2026/4/27 13:31 \t何云溪 - 脱敏简历\nfile:///C:/Users/wy/Desktop/Testin%20RecruitFlow%20Agent/tmp/resume-fixtures/resume_cn_masked_algo_he_yunxi.html \t1/1\n\n-- 1 of 1 --",
+      "parsedResult": {
+        "provider": "Qwen / qwen-plus",
+        "inputMeta": {
+          "fileName": "resume_cn_masked_algo_he_yunxi.pdf",
+          "mimeType": "application/pdf",
+          "fileSize": 207572,
+          "inputSceneHint": "INTERVIEW_FEEDBACK"
+        },
+        "duplicate": null,
+        "result": {
+          "name": "何云溪",
+          "phone": "137****6634",
+          "email": "heyx***@example.com",
+          "school": "上海交通大学",
+          "major": "人工智能",
+          "yearsOfExperience": 2,
+          "skills": [
+            "Python",
+            "PyTorch",
+            "LLM",
+            "RAG",
+            "向量检索",
+            "评测集构建",
+            "Prompt Engineering"
+          ],
+          "status": "SCREENING",
+          "source": "上传文件",
+          "remark": "面试反馈备注，基于脱敏PDF简历提取；候选人应聘算法工程师/大模型应用工程师岗位。",
+          "confidence": 0.95,
+          "uncertainFields": [],
+          "positionTitle": "算法工程师 / 大模型应用工程师",
+          "inputType": "NOTE",
+          "inputScene": "NOTE",
+          "tags": [
+            "算法",
+            "大模型",
+            "社招",
+            "高潜"
+          ],
+          "followUpSuggestion": "建议安排技术面，重点考察RAG系统设计与Prompt工程实战经验。"
+        },
+        "candidateId": "cand_ef9e15f2",
+        "savedAt": "2026-04-27T05:40:30.676Z"
+      },
+      "createdAt": "2026-04-27T05:39:15.807Z"
+    },
+    {
+      "id": "raw_b72bb65a",
+      "candidateId": "cand_7aff3a71",
+      "inputType": "RESUME",
+      "inputScene": "RESUME",
+      "content": "周欣\n女 | 4年经验 | 本科 | 手机：138****4521 | 邮箱：zhoux***@example.com\n脱敏测试简历\n求 职 意 向\n目标岗位：前端开发工程师 / Web 前端工程师\n教 育 背 景\n华东师范大学 软件工程 本科 2016.09 - 2020.06\n工 作 经 历\n上海某企业服务平台 前端开发工程师 2021.03 - 至今\n负责招聘中后台、数据看板和内部工作台前端开发，主导 React + Next.js 页面重构。\n优化候选人列表、筛选与录入交互，推动关键页面首屏加载时长下降约 30%。\n与产品和后端协作设计 AI 智能录入流程，支持文件上传、结构化抽取和人工复核。\n项 目 经 历\n智能招聘工作台\n负责原始输入回溯页、Agent 日志抽屉、候选人管理页和 Dashboard 的交互设计与实\n现。\n搭建高密度数据展示规范和可复用组件样式，提升招聘团队日常操作效率。\n技 能 优 势\nReact \tNext.js \tTypeScript \tTailwind CSS \tECharts \t复杂表单交互\n可视化设计\n2026/4/27 13:31 \t周欣 - 脱敏简历\nfile:///C:/Users/wy/Desktop/Testin%20RecruitFlow%20Agent/tmp/resume-fixtures/resume_cn_masked_frontend_zhou_xin.html \t1/1\n\n-- 1 of 1 --",
+      "parsedResult": {
+        "provider": "Qwen / qwen-plus",
+        "inputMeta": {
+          "fileName": "resume_cn_masked_frontend_zhou_xin.pdf",
+          "mimeType": "application/pdf",
+          "fileSize": 197682,
+          "inputSceneHint": "RESUME"
+        },
+        "duplicate": null,
+        "result": {
+          "name": "周欣",
+          "phone": "138****4521",
+          "email": "zhoux***@example.com",
+          "school": "华东师范大学",
+          "major": "软件工程",
+          "yearsOfExperience": 4,
+          "skills": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "ECharts",
+            "复杂表单交互",
+            "可视化设计"
+          ],
+          "status": "NEW",
+          "source": "上传文件",
+          "remark": "前端开发工程师简历，4年经验，当前在职，使用React/Next.js技术栈。",
+          "confidence": 0.95,
+          "uncertainFields": [],
+          "positionTitle": "前端开发工程师",
+          "inputType": "RESUME",
+          "inputScene": "RESUME",
+          "tags": [
+            "前端",
+            "社招"
+          ],
+          "followUpSuggestion": "建议安排技术初面，重点考察React与Next.js实战能力及性能优化经验。"
+        },
+        "candidateId": "cand_7aff3a71",
+        "savedAt": "2026-04-27T05:51:46.729Z"
+      },
+      "createdAt": "2026-04-27T05:50:54.380Z"
+    }
+  ],
+  "agentTasks": [
+    {
+      "id": "task_extract_mock_lin_yucheng",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 37,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_lin_yucheng",
+        "confidence": 0.94,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.94,
+      "durationMs": 1500,
+      "candidateId": "cand_mock_lin_yucheng",
+      "rawInputId": "raw_mock_lin_yucheng",
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "updatedAt": "2026-04-12T09:30:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_lin_yucheng",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001001",
+        "email": "lin.yucheng@example.com",
+        "name": "林语澄"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_lin_yucheng",
+      "rawInputId": "raw_mock_lin_yucheng",
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "updatedAt": "2026-04-12T09:30:00.000Z"
+    },
+    {
+      "id": "task_status_mock_lin_yucheng",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_lin_yucheng",
+        "status": "FINAL_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_lin_yucheng",
+      "rawInputId": "raw_mock_lin_yucheng",
+      "createdAt": "2026-04-25T10:30:00.000Z",
+      "updatedAt": "2026-04-25T10:30:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_zhao_wenjing",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 38,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_zhao_wenjing",
+        "confidence": 0.87,
+        "uncertainFields": [
+          "期望薪资"
+        ]
+      },
+      "error": null,
+      "confidence": 0.87,
+      "durationMs": 1537,
+      "candidateId": "cand_mock_zhao_wenjing",
+      "rawInputId": "raw_mock_zhao_wenjing",
+      "createdAt": "2026-04-18T08:40:00.000Z",
+      "updatedAt": "2026-04-18T08:40:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_zhao_wenjing",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001002",
+        "email": "zhaowj@example.com",
+        "name": "赵文静"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_zhao_wenjing",
+      "rawInputId": "raw_mock_zhao_wenjing",
+      "createdAt": "2026-04-18T08:40:00.000Z",
+      "updatedAt": "2026-04-18T08:40:00.000Z"
+    },
+    {
+      "id": "task_status_mock_zhao_wenjing",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "NOTE"
+      },
+      "output": {
+        "candidateId": "cand_mock_zhao_wenjing",
+        "status": "SCREENING"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_zhao_wenjing",
+      "rawInputId": "raw_mock_zhao_wenjing",
+      "createdAt": "2026-04-24T08:40:00.000Z",
+      "updatedAt": "2026-04-24T08:40:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_he_junkai",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 27,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_he_junkai",
+        "confidence": 0.9,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.9,
+      "durationMs": 1574,
+      "candidateId": "cand_mock_he_junkai",
+      "rawInputId": "raw_mock_he_junkai",
+      "createdAt": "2026-04-15T14:20:00.000Z",
+      "updatedAt": "2026-04-15T14:20:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_he_junkai",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001003",
+        "email": "hejunkai@example.com",
+        "name": "何俊凯"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_he_junkai",
+      "rawInputId": "raw_mock_he_junkai",
+      "createdAt": "2026-04-15T14:20:00.000Z",
+      "updatedAt": "2026-04-15T14:20:00.000Z"
+    },
+    {
+      "id": "task_status_mock_he_junkai",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "EMAIL"
+      },
+      "output": {
+        "candidateId": "cand_mock_he_junkai",
+        "status": "WRITTEN_TEST"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_he_junkai",
+      "rawInputId": "raw_mock_he_junkai",
+      "createdAt": "2026-04-23T14:20:00.000Z",
+      "updatedAt": "2026-04-23T14:20:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_su_qinghe",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 31,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_su_qinghe",
+        "confidence": 0.92,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.92,
+      "durationMs": 1611,
+      "candidateId": "cand_mock_su_qinghe",
+      "rawInputId": "raw_mock_su_qinghe",
+      "createdAt": "2026-04-14T11:10:00.000Z",
+      "updatedAt": "2026-04-14T11:10:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_su_qinghe",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001004",
+        "email": "suqinghe@example.com",
+        "name": "苏清和"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_su_qinghe",
+      "rawInputId": "raw_mock_su_qinghe",
+      "createdAt": "2026-04-14T11:10:00.000Z",
+      "updatedAt": "2026-04-14T11:10:00.000Z"
+    },
+    {
+      "id": "task_status_mock_su_qinghe",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "EMAIL"
+      },
+      "output": {
+        "candidateId": "cand_mock_su_qinghe",
+        "status": "OFFER"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_su_qinghe",
+      "rawInputId": "raw_mock_su_qinghe",
+      "createdAt": "2026-04-25T02:10:00.000Z",
+      "updatedAt": "2026-04-25T02:10:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_tang_jianing",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 34,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_tang_jianing",
+        "confidence": 0.95,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 1648,
+      "candidateId": "cand_mock_tang_jianing",
+      "rawInputId": "raw_mock_tang_jianing",
+      "createdAt": "2026-04-10T06:50:00.000Z",
+      "updatedAt": "2026-04-10T06:50:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_tang_jianing",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001005",
+        "email": "tangjn@example.com",
+        "name": "唐嘉宁"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_tang_jianing",
+      "rawInputId": "raw_mock_tang_jianing",
+      "createdAt": "2026-04-10T06:50:00.000Z",
+      "updatedAt": "2026-04-10T06:50:00.000Z"
+    },
+    {
+      "id": "task_status_mock_tang_jianing",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_tang_jianing",
+        "status": "ONBOARD"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_tang_jianing",
+      "rawInputId": "raw_mock_tang_jianing",
+      "createdAt": "2026-04-22T06:50:00.000Z",
+      "updatedAt": "2026-04-22T06:50:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_gu_yuanzhou",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "contentLength": 35,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_gu_yuanzhou",
+        "confidence": 0.71,
+        "uncertainFields": [
+          "工作年限",
+          "论文情况"
+        ]
+      },
+      "error": null,
+      "confidence": 0.71,
+      "durationMs": 1685,
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "rawInputId": "raw_mock_gu_yuanzhou",
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "updatedAt": "2026-04-26T03:15:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_gu_yuanzhou",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001006",
+        "email": "guyz@example.com",
+        "name": "顾远舟"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "rawInputId": "raw_mock_gu_yuanzhou",
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "updatedAt": "2026-04-26T03:15:00.000Z"
+    },
+    {
+      "id": "task_status_mock_gu_yuanzhou",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_gu_yuanzhou",
+        "status": "NEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "rawInputId": "raw_mock_gu_yuanzhou",
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "updatedAt": "2026-04-26T03:15:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_chen_xiaobei",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 26,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_chen_xiaobei",
+        "confidence": 0.91,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.91,
+      "durationMs": 1722,
+      "candidateId": "cand_mock_chen_xiaobei",
+      "rawInputId": "raw_mock_chen_xiaobei",
+      "createdAt": "2026-04-13T05:00:00.000Z",
+      "updatedAt": "2026-04-13T05:00:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_chen_xiaobei",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001007",
+        "email": "chenxb@example.com",
+        "name": "陈晓北"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_chen_xiaobei",
+      "rawInputId": "raw_mock_chen_xiaobei",
+      "createdAt": "2026-04-13T05:00:00.000Z",
+      "updatedAt": "2026-04-13T05:00:00.000Z"
+    },
+    {
+      "id": "task_status_mock_chen_xiaobei",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "CHAT"
+      },
+      "output": {
+        "candidateId": "cand_mock_chen_xiaobei",
+        "status": "FIRST_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_chen_xiaobei",
+      "rawInputId": "raw_mock_chen_xiaobei",
+      "createdAt": "2026-04-24T05:00:00.000Z",
+      "updatedAt": "2026-04-24T05:00:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_liu_shiyi",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 26,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_liu_shiyi",
+        "confidence": 0.89,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.89,
+      "durationMs": 1759,
+      "candidateId": "cand_mock_liu_shiyi",
+      "rawInputId": "raw_mock_liu_shiyi",
+      "createdAt": "2026-04-16T12:10:00.000Z",
+      "updatedAt": "2026-04-16T12:10:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_liu_shiyi",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001008",
+        "email": "liusy@example.com",
+        "name": "刘诗怡"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_liu_shiyi",
+      "rawInputId": "raw_mock_liu_shiyi",
+      "createdAt": "2026-04-16T12:10:00.000Z",
+      "updatedAt": "2026-04-16T12:10:00.000Z"
+    },
+    {
+      "id": "task_status_mock_liu_shiyi",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "NOTE"
+      },
+      "output": {
+        "candidateId": "cand_mock_liu_shiyi",
+        "status": "SECOND_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_liu_shiyi",
+      "rawInputId": "raw_mock_liu_shiyi",
+      "createdAt": "2026-04-24T12:10:00.000Z",
+      "updatedAt": "2026-04-24T12:10:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_qin_meng",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 32,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_qin_meng",
+        "confidence": 0.82,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.82,
+      "durationMs": 1796,
+      "candidateId": "cand_mock_qin_meng",
+      "rawInputId": "raw_mock_qin_meng",
+      "createdAt": "2026-04-11T07:20:00.000Z",
+      "updatedAt": "2026-04-11T07:20:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_qin_meng",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001009",
+        "email": "qinmeng@example.com",
+        "name": "秦萌"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_qin_meng",
+      "rawInputId": "raw_mock_qin_meng",
+      "createdAt": "2026-04-11T07:20:00.000Z",
+      "updatedAt": "2026-04-11T07:20:00.000Z"
+    },
+    {
+      "id": "task_status_mock_qin_meng",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_qin_meng",
+        "status": "REJECTED"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_qin_meng",
+      "rawInputId": "raw_mock_qin_meng",
+      "createdAt": "2026-04-21T07:20:00.000Z",
+      "updatedAt": "2026-04-21T07:20:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_yu_haonan",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 30,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_yu_haonan",
+        "confidence": 0.93,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 1833,
+      "candidateId": "cand_mock_yu_haonan",
+      "rawInputId": "raw_mock_yu_haonan",
+      "createdAt": "2026-04-08T13:50:00.000Z",
+      "updatedAt": "2026-04-08T13:50:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_yu_haonan",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001010",
+        "email": "yuhaonan@example.com",
+        "name": "余皓南"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_yu_haonan",
+      "rawInputId": "raw_mock_yu_haonan",
+      "createdAt": "2026-04-08T13:50:00.000Z",
+      "updatedAt": "2026-04-08T13:50:00.000Z"
+    },
+    {
+      "id": "task_status_mock_yu_haonan",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "EMAIL"
+      },
+      "output": {
+        "candidateId": "cand_mock_yu_haonan",
+        "status": "WITHDRAWN"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_yu_haonan",
+      "rawInputId": "raw_mock_yu_haonan",
+      "createdAt": "2026-04-20T13:50:00.000Z",
+      "updatedAt": "2026-04-20T13:50:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_wen_jiakai",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "contentLength": 29,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_wen_jiakai",
+        "confidence": 0.78,
+        "uncertainFields": [
+          "毕业时间"
+        ]
+      },
+      "error": null,
+      "confidence": 0.78,
+      "durationMs": 1870,
+      "candidateId": "cand_mock_wen_jiakai",
+      "rawInputId": "raw_mock_wen_jiakai",
+      "createdAt": "2026-04-22T01:45:00.000Z",
+      "updatedAt": "2026-04-22T01:45:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_wen_jiakai",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001011",
+        "email": "wenjk@example.com",
+        "name": "温嘉凯"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_wen_jiakai",
+      "rawInputId": "raw_mock_wen_jiakai",
+      "createdAt": "2026-04-22T01:45:00.000Z",
+      "updatedAt": "2026-04-22T01:45:00.000Z"
+    },
+    {
+      "id": "task_status_mock_wen_jiakai",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_wen_jiakai",
+        "status": "SCREENING"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_wen_jiakai",
+      "rawInputId": "raw_mock_wen_jiakai",
+      "createdAt": "2026-04-26T01:45:00.000Z",
+      "updatedAt": "2026-04-26T01:45:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_fang_xinyi",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "contentLength": 28,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_fang_xinyi",
+        "confidence": 0.74,
+        "uncertainFields": [
+          "当前岗位"
+        ]
+      },
+      "error": null,
+      "confidence": 0.74,
+      "durationMs": 1907,
+      "candidateId": "cand_mock_fang_xinyi",
+      "rawInputId": "raw_mock_fang_xinyi",
+      "createdAt": "2026-04-26T06:20:00.000Z",
+      "updatedAt": "2026-04-26T06:20:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_fang_xinyi",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001012",
+        "email": "fangxy@example.com",
+        "name": "方欣怡"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_fang_xinyi",
+      "rawInputId": "raw_mock_fang_xinyi",
+      "createdAt": "2026-04-26T06:20:00.000Z",
+      "updatedAt": "2026-04-26T06:20:00.000Z"
+    },
+    {
+      "id": "task_status_mock_fang_xinyi",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_fang_xinyi",
+        "status": "NEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_fang_xinyi",
+      "rawInputId": "raw_mock_fang_xinyi",
+      "createdAt": "2026-04-26T06:20:00.000Z",
+      "updatedAt": "2026-04-26T06:20:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_pang_zihao",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 31,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_pang_zihao",
+        "confidence": 0.9,
+        "uncertainFields": [
+          "入职日期"
+        ]
+      },
+      "error": null,
+      "confidence": 0.9,
+      "durationMs": 1944,
+      "candidateId": "cand_mock_pang_zihao",
+      "rawInputId": "raw_mock_pang_zihao",
+      "createdAt": "2026-04-12T09:00:00.000Z",
+      "updatedAt": "2026-04-12T09:00:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_pang_zihao",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001013",
+        "email": "pangzh@example.com",
+        "name": "庞子昊"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_pang_zihao",
+      "rawInputId": "raw_mock_pang_zihao",
+      "createdAt": "2026-04-12T09:00:00.000Z",
+      "updatedAt": "2026-04-12T09:00:00.000Z"
+    },
+    {
+      "id": "task_status_mock_pang_zihao",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "NOTE"
+      },
+      "output": {
+        "candidateId": "cand_mock_pang_zihao",
+        "status": "OFFER"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_pang_zihao",
+      "rawInputId": "raw_mock_pang_zihao",
+      "createdAt": "2026-04-24T09:00:00.000Z",
+      "updatedAt": "2026-04-24T09:00:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_xu_ran",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 26,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_xu_ran",
+        "confidence": 0.93,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 1981,
+      "candidateId": "cand_mock_xu_ran",
+      "rawInputId": "raw_mock_xu_ran",
+      "createdAt": "2026-04-17T04:40:00.000Z",
+      "updatedAt": "2026-04-17T04:40:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_xu_ran",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001014",
+        "email": "xuran@example.com",
+        "name": "徐冉"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_xu_ran",
+      "rawInputId": "raw_mock_xu_ran",
+      "createdAt": "2026-04-17T04:40:00.000Z",
+      "updatedAt": "2026-04-17T04:40:00.000Z"
+    },
+    {
+      "id": "task_status_mock_xu_ran",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "CHAT"
+      },
+      "output": {
+        "candidateId": "cand_mock_xu_ran",
+        "status": "FINAL_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_xu_ran",
+      "rawInputId": "raw_mock_xu_ran",
+      "createdAt": "2026-04-25T04:40:00.000Z",
+      "updatedAt": "2026-04-25T04:40:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_shen_jialin",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 32,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_shen_jialin",
+        "confidence": 0.86,
+        "uncertainFields": [
+          "当前薪资"
+        ]
+      },
+      "error": null,
+      "confidence": 0.86,
+      "durationMs": 2018,
+      "candidateId": "cand_mock_shen_jialin",
+      "rawInputId": "raw_mock_shen_jialin",
+      "createdAt": "2026-04-14T11:30:00.000Z",
+      "updatedAt": "2026-04-14T11:30:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_shen_jialin",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001015",
+        "email": "shenjl@example.com",
+        "name": "沈嘉琳"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_shen_jialin",
+      "rawInputId": "raw_mock_shen_jialin",
+      "createdAt": "2026-04-14T11:30:00.000Z",
+      "updatedAt": "2026-04-14T11:30:00.000Z"
+    },
+    {
+      "id": "task_status_mock_shen_jialin",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "NOTE"
+      },
+      "output": {
+        "candidateId": "cand_mock_shen_jialin",
+        "status": "FIRST_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_shen_jialin",
+      "rawInputId": "raw_mock_shen_jialin",
+      "createdAt": "2026-04-23T11:30:00.000Z",
+      "updatedAt": "2026-04-23T11:30:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_mao_yiru",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 26,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_mao_yiru",
+        "confidence": 0.84,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.84,
+      "durationMs": 2055,
+      "candidateId": "cand_mock_mao_yiru",
+      "rawInputId": "raw_mock_mao_yiru",
+      "createdAt": "2026-04-16T15:10:00.000Z",
+      "updatedAt": "2026-04-16T15:10:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_mao_yiru",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001016",
+        "email": "maoyr@example.com",
+        "name": "毛依如"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_mao_yiru",
+      "rawInputId": "raw_mock_mao_yiru",
+      "createdAt": "2026-04-16T15:10:00.000Z",
+      "updatedAt": "2026-04-16T15:10:00.000Z"
+    },
+    {
+      "id": "task_status_mock_mao_yiru",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "EMAIL"
+      },
+      "output": {
+        "candidateId": "cand_mock_mao_yiru",
+        "status": "WRITTEN_TEST"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_mao_yiru",
+      "rawInputId": "raw_mock_mao_yiru",
+      "createdAt": "2026-04-24T15:10:00.000Z",
+      "updatedAt": "2026-04-24T15:10:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_cao_tingting",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 36,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_cao_tingting",
+        "confidence": 0.8,
+        "uncertainFields": [
+          "目标岗位"
+        ]
+      },
+      "error": null,
+      "confidence": 0.8,
+      "durationMs": 2092,
+      "candidateId": "cand_mock_cao_tingting",
+      "rawInputId": "raw_mock_cao_tingting",
+      "createdAt": "2026-04-19T06:10:00.000Z",
+      "updatedAt": "2026-04-19T06:10:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_cao_tingting",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001017",
+        "email": "caott@example.com",
+        "name": "曹婷婷"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_cao_tingting",
+      "rawInputId": "raw_mock_cao_tingting",
+      "createdAt": "2026-04-19T06:10:00.000Z",
+      "updatedAt": "2026-04-19T06:10:00.000Z"
+    },
+    {
+      "id": "task_status_mock_cao_tingting",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "CHAT"
+      },
+      "output": {
+        "candidateId": "cand_mock_cao_tingting",
+        "status": "SCREENING"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_cao_tingting",
+      "rawInputId": "raw_mock_cao_tingting",
+      "createdAt": "2026-04-25T06:10:00.000Z",
+      "updatedAt": "2026-04-25T06:10:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_ding_haoyu",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 22,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_ding_haoyu",
+        "confidence": 0.91,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.91,
+      "durationMs": 2129,
+      "candidateId": "cand_mock_ding_haoyu",
+      "rawInputId": "raw_mock_ding_haoyu",
+      "createdAt": "2026-04-18T08:05:00.000Z",
+      "updatedAt": "2026-04-18T08:05:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_ding_haoyu",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001018",
+        "email": "dinghy@example.com",
+        "name": "丁浩宇"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_ding_haoyu",
+      "rawInputId": "raw_mock_ding_haoyu",
+      "createdAt": "2026-04-18T08:05:00.000Z",
+      "updatedAt": "2026-04-18T08:05:00.000Z"
+    },
+    {
+      "id": "task_status_mock_ding_haoyu",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_ding_haoyu",
+        "status": "SECOND_INTERVIEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_ding_haoyu",
+      "rawInputId": "raw_mock_ding_haoyu",
+      "createdAt": "2026-04-25T08:05:00.000Z",
+      "updatedAt": "2026-04-25T08:05:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_ren_yiming",
+      "agentName": "deepseek:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "contentLength": 27,
+        "providerOverride": "deepseek"
+      },
+      "output": {
+        "candidateId": "cand_mock_ren_yiming",
+        "confidence": 0.76,
+        "uncertainFields": [
+          "全职到岗时间"
+        ]
+      },
+      "error": null,
+      "confidence": 0.76,
+      "durationMs": 2166,
+      "candidateId": "cand_mock_ren_yiming",
+      "rawInputId": "raw_mock_ren_yiming",
+      "createdAt": "2026-04-26T02:50:00.000Z",
+      "updatedAt": "2026-04-26T02:50:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_ren_yiming",
+      "agentName": "deepseek:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001019",
+        "email": "renym@example.com",
+        "name": "任一鸣"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_ren_yiming",
+      "rawInputId": "raw_mock_ren_yiming",
+      "createdAt": "2026-04-26T02:50:00.000Z",
+      "updatedAt": "2026-04-26T02:50:00.000Z"
+    },
+    {
+      "id": "task_status_mock_ren_yiming",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "candidateId": "cand_mock_ren_yiming",
+        "status": "NEW"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_ren_yiming",
+      "rawInputId": "raw_mock_ren_yiming",
+      "createdAt": "2026-04-26T02:50:00.000Z",
+      "updatedAt": "2026-04-26T02:50:00.000Z"
+    },
+    {
+      "id": "task_extract_mock_luo_anqi",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 28,
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_luo_anqi",
+        "confidence": 0.93,
+        "uncertainFields": []
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 2203,
+      "candidateId": "cand_mock_luo_anqi",
+      "rawInputId": "raw_mock_luo_anqi",
+      "createdAt": "2026-04-13T03:30:00.000Z",
+      "updatedAt": "2026-04-13T03:30:00.000Z"
+    },
+    {
+      "id": "task_duplicate_mock_luo_anqi",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "13600001020",
+        "email": "luoaq@example.com",
+        "name": "罗安琪"
+      },
+      "output": {
+        "message": "No duplicate candidate found"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 80,
+      "candidateId": "cand_mock_luo_anqi",
+      "rawInputId": "raw_mock_luo_anqi",
+      "createdAt": "2026-04-13T03:30:00.000Z",
+      "updatedAt": "2026-04-13T03:30:00.000Z"
+    },
+    {
+      "id": "task_status_mock_luo_anqi",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "EMAIL"
+      },
+      "output": {
+        "candidateId": "cand_mock_luo_anqi",
+        "status": "ONBOARD"
+      },
+      "error": null,
+      "confidence": 0.93,
+      "durationMs": 55,
+      "candidateId": "cand_mock_luo_anqi",
+      "rawInputId": "raw_mock_luo_anqi",
+      "createdAt": "2026-04-24T03:30:00.000Z",
+      "updatedAt": "2026-04-24T03:30:00.000Z"
+    },
+    {
+      "id": "task_mock_lin_extract",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "resume",
+        "fileName": "lin-yucheng-resume.pdf"
+      },
+      "output": {
+        "candidateId": "cand_mock_lin_yucheng",
+        "confidence": 0.94
+      },
+      "error": null,
+      "confidence": 0.94,
+      "durationMs": 1480,
+      "candidateId": "cand_mock_lin_yucheng",
+      "rawInputId": "raw_mock_lin_resume",
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "updatedAt": "2026-04-12T09:30:00.000Z"
+    },
+    {
+      "id": "task_mock_zhao_screen",
+      "agentName": "deepseek:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "note"
+      },
+      "output": {
+        "candidateId": "cand_mock_zhao_wenjing",
+        "status": "SCREENING"
+      },
+      "error": null,
+      "confidence": 0.87,
+      "durationMs": 320,
+      "candidateId": "cand_mock_zhao_wenjing",
+      "rawInputId": "raw_mock_zhao_referral",
+      "createdAt": "2026-04-18T08:40:00.000Z",
+      "updatedAt": "2026-04-18T08:40:00.000Z"
+    },
+    {
+      "id": "task_mock_he_test",
+      "agentName": "qwen:ReminderAgent",
+      "taskType": "reminder",
+      "status": "NEED_REVIEW",
+      "input": {
+        "candidateId": "cand_mock_he_junkai"
+      },
+      "output": {
+        "title": "跟进笔试回收",
+        "candidateId": "cand_mock_he_junkai"
+      },
+      "error": null,
+      "confidence": 0.78,
+      "durationMs": 210,
+      "candidateId": "cand_mock_he_junkai",
+      "rawInputId": "raw_mock_he_email",
+      "createdAt": "2026-04-23T14:20:00.000Z",
+      "updatedAt": "2026-04-23T14:20:00.000Z"
+    },
+    {
+      "id": "task_mock_su_offer",
+      "agentName": "deepseek:ReminderAgent",
+      "taskType": "reminder",
+      "status": "SUCCESS",
+      "input": {
+        "candidateId": "cand_mock_su_qinghe"
+      },
+      "output": {
+        "title": "跟进 Offer 确认",
+        "candidateId": "cand_mock_su_qinghe"
+      },
+      "error": null,
+      "confidence": 0.91,
+      "durationMs": 188,
+      "candidateId": "cand_mock_su_qinghe",
+      "rawInputId": "raw_mock_su_offer",
+      "createdAt": "2026-04-25T02:10:00.000Z",
+      "updatedAt": "2026-04-25T02:10:00.000Z"
+    },
+    {
+      "id": "task_mock_gu_extract",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "NEED_REVIEW",
+      "input": {
+        "sourceType": "resume",
+        "fileName": "gu-yuanzhou-scan.pdf",
+        "providerOverride": "qwen"
+      },
+      "output": {
+        "candidateId": "cand_mock_gu_yuanzhou",
+        "uncertainFields": [
+          "yearsOfExperience",
+          "school"
+        ]
+      },
+      "error": null,
+      "confidence": 0.71,
+      "durationMs": 3980,
+      "candidateId": "cand_mock_gu_yuanzhou",
+      "rawInputId": "raw_mock_gu_resume",
+      "createdAt": "2026-04-26T03:15:00.000Z",
+      "updatedAt": "2026-04-26T03:15:00.000Z"
+    },
+    {
+      "id": "task_fbc53a38",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 701,
+        "provider": "qwen",
+        "fileName": "resume_cn_masked_algo_he_yunxi.pdf",
+        "mimeType": "application/pdf",
+        "fileSize": 207572,
+        "inputSceneHint": "INTERVIEW_FEEDBACK"
+      },
+      "output": {
+        "name": "何云溪",
+        "phone": "137****6634",
+        "email": "heyx***@example.com",
+        "school": "上海交通大学",
+        "major": "人工智能",
+        "yearsOfExperience": 2,
+        "skills": [
+          "Python",
+          "PyTorch",
+          "LLM",
+          "RAG",
+          "向量检索",
+          "评测集构建",
+          "Prompt Engineering"
+        ],
+        "status": "SCREENING",
+        "source": "上传文件",
+        "remark": "面试反馈备注，基于脱敏PDF简历提取；候选人应聘算法工程师/大模型应用工程师岗位。",
+        "confidence": 0.95,
+        "uncertainFields": [],
+        "positionTitle": "算法工程师 / 大模型应用工程师",
+        "inputType": "NOTE",
+        "inputScene": "INTERVIEW_FEEDBACK",
+        "tags": [
+          "算法",
+          "大模型",
+          "社招",
+          "高潜"
+        ],
+        "followUpSuggestion": "建议安排技术面，重点考察RAG系统设计与Prompt工程实战经验。"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 5719,
+      "candidateId": "cand_ef9e15f2",
+      "rawInputId": "raw_9ab45f34",
+      "createdAt": "2026-04-27T05:39:15.807Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "task_cdf02b94",
+      "agentName": "qwen:InputClassifyAgent",
+      "taskType": "classify",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "NOTE"
+      },
+      "output": {
+        "inputScene": "INTERVIEW_FEEDBACK",
+        "inputSceneLabel": "面试反馈"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 40,
+      "candidateId": "cand_ef9e15f2",
+      "rawInputId": "raw_9ab45f34",
+      "createdAt": "2026-04-27T05:39:15.807Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "task_68b24489",
+      "agentName": "qwen:CandidateTagAgent",
+      "taskType": "tagging",
+      "status": "SUCCESS",
+      "input": {
+        "positionTitle": "算法工程师 / 大模型应用工程师",
+        "yearsOfExperience": 2
+      },
+      "output": {
+        "tags": [
+          "算法",
+          "大模型",
+          "社招",
+          "高潜"
+        ]
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 35,
+      "candidateId": "cand_ef9e15f2",
+      "rawInputId": "raw_9ab45f34",
+      "createdAt": "2026-04-27T05:39:15.807Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "task_ff1bd90f",
+      "agentName": "qwen:FollowUpSuggestionAgent",
+      "taskType": "followup",
+      "status": "SUCCESS",
+      "input": {
+        "status": "SCREENING",
+        "uncertainFields": []
+      },
+      "output": {
+        "followUpSuggestion": "建议安排技术面，重点考察RAG系统设计与Prompt工程实战经验。"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 30,
+      "candidateId": "cand_ef9e15f2",
+      "rawInputId": "raw_9ab45f34",
+      "createdAt": "2026-04-27T05:39:15.807Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "task_9516dd09",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "137****6634",
+        "email": "heyx***@example.com",
+        "name": "何云溪",
+        "positionTitle": "算法工程师 / 大模型应用工程师"
+      },
+      "output": {
+        "message": "未发现重复候选人"
+      },
+      "error": null,
+      "confidence": 0.94,
+      "durationMs": 60,
+      "candidateId": "cand_ef9e15f2",
+      "rawInputId": "raw_9ab45f34",
+      "createdAt": "2026-04-27T05:39:15.807Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "task_a14a6949",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "NOTE"
+      },
+      "output": {
+        "status": "SCREENING"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 40,
+      "candidateId": "cand_ef9e15f2",
+      "rawInputId": "raw_9ab45f34",
+      "createdAt": "2026-04-27T05:39:15.807Z",
+      "updatedAt": "2026-04-27T05:40:30.676Z"
+    },
+    {
+      "id": "task_08f21106",
+      "agentName": "qwen:CandidateExtractAgent",
+      "taskType": "extract",
+      "status": "SUCCESS",
+      "input": {
+        "contentLength": 723,
+        "provider": "qwen",
+        "fileName": "resume_cn_masked_frontend_zhou_xin.pdf",
+        "mimeType": "application/pdf",
+        "fileSize": 197682,
+        "inputSceneHint": "RESUME"
+      },
+      "output": {
+        "name": "周欣",
+        "phone": "138****4521",
+        "email": "zhoux***@example.com",
+        "school": "华东师范大学",
+        "major": "软件工程",
+        "yearsOfExperience": 4,
+        "skills": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "ECharts",
+          "复杂表单交互",
+          "可视化设计"
+        ],
+        "status": "NEW",
+        "source": "上传文件",
+        "remark": "前端开发工程师简历，4年经验，当前在职，使用React/Next.js技术栈。",
+        "confidence": 0.95,
+        "uncertainFields": [],
+        "positionTitle": "前端开发工程师",
+        "inputType": "RESUME",
+        "inputScene": "RESUME",
+        "tags": [
+          "前端",
+          "社招"
+        ],
+        "followUpSuggestion": "建议安排技术初面，重点考察React与Next.js实战能力及性能优化经验。"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 5299,
+      "candidateId": "cand_7aff3a71",
+      "rawInputId": "raw_b72bb65a",
+      "createdAt": "2026-04-27T05:50:54.380Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    },
+    {
+      "id": "task_5878490b",
+      "agentName": "qwen:InputClassifyAgent",
+      "taskType": "classify",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "inputScene": "RESUME",
+        "inputSceneLabel": "简历"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 40,
+      "candidateId": "cand_7aff3a71",
+      "rawInputId": "raw_b72bb65a",
+      "createdAt": "2026-04-27T05:50:54.380Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    },
+    {
+      "id": "task_84a544f6",
+      "agentName": "qwen:CandidateTagAgent",
+      "taskType": "tagging",
+      "status": "SUCCESS",
+      "input": {
+        "positionTitle": "前端开发工程师",
+        "yearsOfExperience": 4
+      },
+      "output": {
+        "tags": [
+          "前端",
+          "社招"
+        ]
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 35,
+      "candidateId": "cand_7aff3a71",
+      "rawInputId": "raw_b72bb65a",
+      "createdAt": "2026-04-27T05:50:54.380Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    },
+    {
+      "id": "task_1a17b48f",
+      "agentName": "qwen:FollowUpSuggestionAgent",
+      "taskType": "followup",
+      "status": "SUCCESS",
+      "input": {
+        "status": "NEW",
+        "uncertainFields": []
+      },
+      "output": {
+        "followUpSuggestion": "建议安排技术初面，重点考察React与Next.js实战能力及性能优化经验。"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 30,
+      "candidateId": "cand_7aff3a71",
+      "rawInputId": "raw_b72bb65a",
+      "createdAt": "2026-04-27T05:50:54.380Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    },
+    {
+      "id": "task_f3eeb977",
+      "agentName": "qwen:DuplicateCheckAgent",
+      "taskType": "duplicate",
+      "status": "SUCCESS",
+      "input": {
+        "phone": "138****4521",
+        "email": "zhoux***@example.com",
+        "name": "周欣",
+        "positionTitle": "前端开发工程师"
+      },
+      "output": {
+        "message": "未发现重复候选人"
+      },
+      "error": null,
+      "confidence": 0.94,
+      "durationMs": 60,
+      "candidateId": "cand_7aff3a71",
+      "rawInputId": "raw_b72bb65a",
+      "createdAt": "2026-04-27T05:50:54.380Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    },
+    {
+      "id": "task_c581c912",
+      "agentName": "qwen:StatusTrackingAgent",
+      "taskType": "status",
+      "status": "SUCCESS",
+      "input": {
+        "sourceType": "RESUME"
+      },
+      "output": {
+        "status": "NEW"
+      },
+      "error": null,
+      "confidence": 0.95,
+      "durationMs": 40,
+      "candidateId": "cand_7aff3a71",
+      "rawInputId": "raw_b72bb65a",
+      "createdAt": "2026-04-27T05:50:54.380Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "note_mock_lin_yucheng",
+      "candidateId": "cand_mock_lin_yucheng",
+      "type": "INTERVIEW",
+      "title": "确认终面排期",
+      "note": "锁定领导终面时间并同步候选人议程。",
+      "dueAt": "2026-04-27T10:30:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-25T10:30:00.000Z",
+      "updatedAt": "2026-04-25T10:30:00.000Z"
+    },
+    {
+      "id": "note_mock_zhao_wenjing",
+      "candidateId": "cand_mock_zhao_wenjing",
+      "type": "FOLLOW_UP",
+      "title": "完成初筛沟通",
+      "note": "确认到岗时间、薪资范围和岗位动机。",
+      "dueAt": "2026-04-26T08:40:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-24T08:40:00.000Z",
+      "updatedAt": "2026-04-24T08:40:00.000Z"
+    },
+    {
+      "id": "note_mock_he_junkai",
+      "candidateId": "cand_mock_he_junkai",
+      "type": "FOLLOW_UP",
+      "title": "回收笔试结果",
+      "note": "跟进案例作业或笔试答卷的提交时间。",
+      "dueAt": "2026-04-25T14:20:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-23T14:20:00.000Z",
+      "updatedAt": "2026-04-23T14:20:00.000Z"
+    },
+    {
+      "id": "note_mock_su_qinghe",
+      "candidateId": "cand_mock_su_qinghe",
+      "type": "OFFER",
+      "title": "跟进 Offer 反馈",
+      "note": "确认最终意向，并提前准备备选方案。",
+      "dueAt": "2026-04-27T02:10:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-25T02:10:00.000Z",
+      "updatedAt": "2026-04-25T02:10:00.000Z"
+    },
+    {
+      "id": "note_mock_tang_jianing",
+      "candidateId": "cand_mock_tang_jianing",
+      "type": "ONBOARD",
+      "title": "跟进入职材料",
+      "note": "确认合同、证件和设备准备进度。",
+      "dueAt": "2026-04-24T06:50:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-22T06:50:00.000Z",
+      "updatedAt": "2026-04-22T06:50:00.000Z"
+    },
+    {
+      "id": "note_mock_chen_xiaobei",
+      "candidateId": "cand_mock_chen_xiaobei",
+      "type": "INTERVIEW",
+      "title": "汇总一面反馈",
+      "note": "尽量在 24 小时内收齐面试反馈并决定是否推进。",
+      "dueAt": "2026-04-26T05:00:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-24T05:00:00.000Z",
+      "updatedAt": "2026-04-24T05:00:00.000Z"
+    },
+    {
+      "id": "note_mock_liu_shiyi",
+      "candidateId": "cand_mock_liu_shiyi",
+      "type": "INTERVIEW",
+      "title": "准备二面安排",
+      "note": "确认面试官分工和重点考察维度。",
+      "dueAt": "2026-04-26T12:10:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-24T12:10:00.000Z",
+      "updatedAt": "2026-04-24T12:10:00.000Z"
+    },
+    {
+      "id": "note_mock_wen_jiakai",
+      "candidateId": "cand_mock_wen_jiakai",
+      "type": "FOLLOW_UP",
+      "title": "完成初筛沟通",
+      "note": "确认到岗时间、薪资范围和岗位动机。",
+      "dueAt": "2026-04-28T01:45:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-26T01:45:00.000Z",
+      "updatedAt": "2026-04-26T01:45:00.000Z"
+    },
+    {
+      "id": "note_mock_pang_zihao",
+      "candidateId": "cand_mock_pang_zihao",
+      "type": "OFFER",
+      "title": "跟进 Offer 反馈",
+      "note": "确认最终意向，并提前准备备选方案。",
+      "dueAt": "2026-04-26T09:00:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-24T09:00:00.000Z",
+      "updatedAt": "2026-04-24T09:00:00.000Z"
+    },
+    {
+      "id": "note_mock_xu_ran",
+      "candidateId": "cand_mock_xu_ran",
+      "type": "INTERVIEW",
+      "title": "确认终面排期",
+      "note": "锁定领导终面时间并同步候选人议程。",
+      "dueAt": "2026-04-27T04:40:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-25T04:40:00.000Z",
+      "updatedAt": "2026-04-25T04:40:00.000Z"
+    },
+    {
+      "id": "note_mock_shen_jialin",
+      "candidateId": "cand_mock_shen_jialin",
+      "type": "INTERVIEW",
+      "title": "汇总一面反馈",
+      "note": "尽量在 24 小时内收齐面试反馈并决定是否推进。",
+      "dueAt": "2026-04-25T11:30:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-23T11:30:00.000Z",
+      "updatedAt": "2026-04-23T11:30:00.000Z"
+    },
+    {
+      "id": "note_mock_mao_yiru",
+      "candidateId": "cand_mock_mao_yiru",
+      "type": "FOLLOW_UP",
+      "title": "回收笔试结果",
+      "note": "跟进案例作业或笔试答卷的提交时间。",
+      "dueAt": "2026-04-26T15:10:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-24T15:10:00.000Z",
+      "updatedAt": "2026-04-24T15:10:00.000Z"
+    },
+    {
+      "id": "note_mock_cao_tingting",
+      "candidateId": "cand_mock_cao_tingting",
+      "type": "FOLLOW_UP",
+      "title": "完成初筛沟通",
+      "note": "确认到岗时间、薪资范围和岗位动机。",
+      "dueAt": "2026-04-27T06:10:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-25T06:10:00.000Z",
+      "updatedAt": "2026-04-25T06:10:00.000Z"
+    },
+    {
+      "id": "note_mock_ding_haoyu",
+      "candidateId": "cand_mock_ding_haoyu",
+      "type": "INTERVIEW",
+      "title": "准备二面安排",
+      "note": "确认面试官分工和重点考察维度。",
+      "dueAt": "2026-04-27T08:05:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-25T08:05:00.000Z",
+      "updatedAt": "2026-04-25T08:05:00.000Z"
+    },
+    {
+      "id": "note_mock_luo_anqi",
+      "candidateId": "cand_mock_luo_anqi",
+      "type": "ONBOARD",
+      "title": "跟进入职材料",
+      "note": "确认合同、证件和设备准备进度。",
+      "dueAt": "2026-04-26T03:30:00.000Z",
+      "done": false,
+      "createdAt": "2026-04-24T03:30:00.000Z",
+      "updatedAt": "2026-04-24T03:30:00.000Z"
+    },
+    {
+      "id": "note_mock_lin_interview",
+      "type": "INTERVIEW",
+      "title": "确认终面时间",
+      "note": "候选人可配合周二或周三下午，建议今天内完成排期。",
+      "dueAt": "2026-04-27T03:00:00.000Z",
+      "done": false,
+      "candidateId": "cand_mock_lin_yucheng",
+      "createdAt": "2026-04-25T10:30:00.000Z",
+      "updatedAt": "2026-04-25T10:30:00.000Z"
+    },
+    {
+      "id": "note_mock_zhao_followup",
+      "type": "FOLLOW_UP",
+      "title": "完成初筛电话",
+      "note": "建议今天与候选人确认薪资、到岗时间和产品方法论案例。",
+      "dueAt": "2026-04-26T08:30:00.000Z",
+      "done": false,
+      "candidateId": "cand_mock_zhao_wenjing",
+      "createdAt": "2026-04-24T08:40:00.000Z",
+      "updatedAt": "2026-04-24T08:40:00.000Z"
+    },
+    {
+      "id": "note_mock_he_test",
+      "type": "FOLLOW_UP",
+      "title": "回收笔试结果",
+      "note": "如今晚未提交，明早 10 点前再次提醒。",
+      "dueAt": "2026-04-26T14:00:00.000Z",
+      "done": false,
+      "candidateId": "cand_mock_he_junkai",
+      "createdAt": "2026-04-23T14:20:00.000Z",
+      "updatedAt": "2026-04-23T14:20:00.000Z"
+    },
+    {
+      "id": "note_mock_su_offer",
+      "type": "OFFER",
+      "title": "跟进 Offer 结果",
+      "note": "周一上午确认是否接受，如有疑虑可补一次沟通。",
+      "dueAt": "2026-04-28T01:30:00.000Z",
+      "done": false,
+      "candidateId": "cand_mock_su_qinghe",
+      "createdAt": "2026-04-25T02:10:00.000Z",
+      "updatedAt": "2026-04-25T02:10:00.000Z"
+    },
+    {
+      "id": "note_mock_tang_onboard",
+      "type": "ONBOARD",
+      "title": "确认入职材料",
+      "note": "身份证明、学历证明和体检报告仍缺 1 项。",
+      "dueAt": "2026-04-27T09:00:00.000Z",
+      "done": false,
+      "candidateId": "cand_mock_tang_jianing",
+      "createdAt": "2026-04-22T06:50:00.000Z",
+      "updatedAt": "2026-04-22T06:50:00.000Z"
+    },
+    {
+      "id": "note_49cc7f01",
+      "candidateId": "cand_ef9e15f2",
+      "type": "FOLLOW_UP",
+      "title": "候选人跟进提醒",
+      "note": "建议安排技术面，重点考察RAG系统设计与Prompt工程实战经验。",
+      "dueAt": "2026-04-30T05:40:30.677Z",
+      "done": false,
+      "createdAt": "2026-04-27T05:40:30.677Z",
+      "updatedAt": "2026-04-27T05:40:30.677Z"
+    },
+    {
+      "id": "note_dd746028",
+      "candidateId": "cand_7aff3a71",
+      "type": "FOLLOW_UP",
+      "title": "候选人跟进提醒",
+      "note": "建议安排技术初面，重点考察React与Next.js实战能力及性能优化经验。",
+      "dueAt": "2026-04-30T05:51:46.729Z",
+      "done": false,
+      "createdAt": "2026-04-27T05:51:46.729Z",
+      "updatedAt": "2026-04-27T05:51:46.729Z"
+    }
+  ]
+}
